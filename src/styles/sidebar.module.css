@@ -1,0 +1,18 @@
+.sidebar {
+    position: absolute;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 100%;
+    font-weight: 400;
+    font-size: 13px;
+    color: #333;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100% - var(--hh));
+    background-color: #fff;
+  }
+

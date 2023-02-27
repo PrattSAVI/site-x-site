@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg enable-background="new 0 0 508.5 291.9" version="1.1" viewBox="0 0 508.5 291.9" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#D1D3D4;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#D1D3D4;}
+	.st3{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:12.0998,12.0998;}
+	.st5{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:12.1054,12.1054;}
+	.st6{font-family:'URWDIN-Bold';}
+	.st7{font-size:14px;}
+	.st8{fill:#231F20;}
+	.st9{font-family:'URWDIN-Regular';}
+	.st10{font-size:12px;}
+</style>
+<switch>
+	<foreignObject width="1" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
+		
+	</foreignObject>
+	<g>
+		
+			<polygon class="st0" points="60.7 0.7 0.3 0.7 0.3 61.2 0.3 121.7 0.3 182.2 0.3 242.6 60.7 242.6 121.2 242.6 121.2 182.2 121.2 121.7 121.2 61.2 121.2 0.7"/>
+			<polygon class="st1" points="181.7 0.7 121.2 0.7 121.2 61.2 121.2 121.7 121.2 182.2 121.2 242.6 181.7 242.6 242.1 242.6 242.1 182.2 242.1 121.7 242.1 61.2 242.1 0.7"/>
+		
+		
+			
+				<polygon class="st2" points="326.2 0.7 265.8 0.7 265.8 61.2 265.8 121.7 265.8 182.2 265.8 242.6 326.2 242.6 386.7 242.6 386.7 182.2 386.7 121.7 386.7 61.2 386.7 0.7"/>
+				
+					<polyline class="st3" points="271.8 0.7 265.8 0.7 265.8 6.7"/>
+					<polyline class="st4" points="265.8 18.8 265.8 61.2 265.8 121.7 265.8 182.2 265.8 230.6"/>
+					<polyline class="st3" points="265.8 236.6 265.8 242.6 271.8 242.6"/>
+					<polyline class="st5" points="283.9 242.6 326.2 242.6 374.7 242.6"/>
+					<polyline class="st3" points="380.7 242.6 386.7 242.6 386.7 236.6"/>
+					<polyline class="st4" points="386.7 224.5 386.7 182.2 386.7 121.7 386.7 61.2 386.7 12.8"/>
+					<polyline class="st3" points="386.7 6.7 386.7 0.7 380.7 0.7"/>
+					<polyline class="st5" points="368.6 0.7 326.2 0.7 277.8 0.7"/>
+				
+			
+			
+				<polygon class="st2" points="447.2 0.7 386.7 0.7 386.7 61.2 386.7 121.7 386.7 182.2 386.7 242.6 447.2 242.6 507.7 242.6 507.7 182.2 507.7 121.7 507.7 61.2 507.7 0.7"/>
+				
+					<polyline class="st3" points="392.7 0.7 386.7 0.7 386.7 6.7"/>
+					<polyline class="st4" points="386.7 18.8 386.7 61.2 386.7 121.7 386.7 182.2 386.7 230.6"/>
+					<polyline class="st3" points="386.7 236.6 386.7 242.6 392.7 242.6"/>
+					<polyline class="st5" points="404.8 242.6 447.2 242.6 495.6 242.6"/>
+					<polyline class="st3" points="501.7 242.6 507.7 242.6 507.7 236.6"/>
+					<polyline class="st4" points="507.7 224.5 507.7 182.2 507.7 121.7 507.7 61.2 507.7 12.8"/>
+					<polyline class="st3" points="507.7 6.7 507.7 0.7 501.7 0.7"/>
+					<polyline class="st5" points="489.6 0.7 447.2 0.7 398.8 0.7"/>
+				
+			
+		
+		<rect class="st3" x="265.8" y=".7" width="241.9" height="241.9"/>
+		<text transform="translate(41.971 259.42)"><tspan class="st6 st7" x="0" y="0">L</tspan><tspan class="st6 st7" x="7.4" y="0">O</tspan><tspan class="st6 st7" x="16.4" y="0">T A</tspan></text>
+		<text class="st8 st9 st10" transform="translate(36.203 275.63)">50’ x 100’</text>
+		<text class="st8 st9 st10" transform="translate(39.364 289.87)">FAR = 3</text>
+		<text transform="translate(164.76 259.42)"><tspan class="st6 st7" x="0" y="0">L</tspan><tspan class="st6 st7" x="7.4" y="0">O</tspan><tspan class="st6 st7" x="16.4" y="0">T B</tspan></text>
+		<text class="st8 st9 st10" transform="translate(160.19 275.63)">50’ x 100’</text>
+		<text class="st8 st9 st10" transform="translate(163.07 289.87)">FAR = 3</text>
+		<text transform="translate(336.33 260.74)"><tspan class="st6 st7" x="0" y="0">MERGED L</tspan><tspan class="st6 st7" x="63.8" y="0">O</tspan><tspan class="st6 st7" x="72.8" y="0">T AB</tspan></text>
+		<text class="st8 st9 st10" transform="translate(362.67 276.24)">50’ x 100’</text>
+		<text class="st8 st9 st10" transform="translate(365.83 290.47)">FAR = 3</text>
+	</g>
+</switch>
+
+</svg>
