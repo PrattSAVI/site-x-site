@@ -63,7 +63,7 @@ function SecThreeDevLimitsSideBar() {
                 handleLegend(true, "secThreeDevLimits");
               }}
             >
-              Rent stabilized housing: CEQR proxy
+              Rent Stabilized Housing: CEQR proxy
             </button>
           </h2>
           <div

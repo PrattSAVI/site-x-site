@@ -92,6 +92,7 @@ function CEQRIntroSideBar() {
               <p className="lastp">
               * SITE x SITE uses ≥5,000 sf and ≥50% Available <Link to= "/methods/glossary" className="glossary-maplink" target="_blank" rel="noopener noreferrer" title="go to glossary">FAR</Link>. An overview of soft sites can be found in Primer on Development in New York City.
               </p>
+              <p className="lastp">See Step 2b: Rezonings to reference neighborhood rezonings from 2012-2022.</p>
             </div>
           </div>
         </div>

@@ -1,15 +1,15 @@
 const legendOptions = {
   ceqrIntro: {
     /// legend title
-    name: "Soft sites and Development",
+    name: "Soft Sites and Development",
     /// section id  in map colors/layers doc - https://docs.google.com/spreadsheets/d/1Ri0HaOR3276XUikoxgNKhDK3m2GZhT6nkC_grDRPlkQ/edit?usp=sharing
     section: "softsites_dev_section",
-    subdescription: "Typically if a lot is larger than 5,000 square feet and has substantial available unbuilt floor area, it is considered a soft site.* But as this map shows, 77 percent of lots that were developed between 2012 and 2022 would not qualify as soft sitesunder current criteria and therefore would not be evaluated for environmental impact. The floor area that would not be captured is equivalent to 125 Hudson Yards.",
+    subdescription: "Typically if a lot is larger than 5,000 square feet and has substantial available unbuilt floor area, it is considered a soft site.* But as this map shows, 77 percent of lots that were developed between 2012 and 2022 would not qualify as soft sites under current criteria and therefore would not be evaluated for environmental impact. The floor area that would not be captured is equivalent to 125 Hudson Yards.",
     /// colors and text in legend
     stops: [
       { text: "Developed sites that are NOT soft sites", color: "#FFB809" },
       { text: "Developed sites that are soft sites", color: "#6A42A4" },
-      { text: "Soft sites", color: "#ccbbec" },
+      { text: "All soft sites", color: "#ccbbec" },
       // { text: "Zoning Amendments"},
       // { text: "Adopted before 2012", color: "#F5E6F9" },
       // { text: "Adopted after 2011", color: "#F9E5E5" },
@@ -246,7 +246,7 @@ const legendOptions = {
         color: "#F73939",
       },
       {
-        text: "Developed after 2011 - Possible Merged Sites",
+        text: "Developed after 2011 - Possible merged sites",
         color: "#6A42A4",
       },
     ],
@@ -308,7 +308,7 @@ const legendOptions = {
       { text: "Special Marine Districts", color: "#9BCCE9" },
       { text: "Coastal Boundary Zones", color: "#B0D487" },
       { text: "Sites Developed Since 2011", color: "#8e8b86" },
-      { text: "Soft sites", color: "#B3B1AB" },
+      { text: "Soft Sites", color: "#B3B1AB" },
     ],
   },
   secThreeDevLimits4: {

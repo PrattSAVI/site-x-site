@@ -72,6 +72,7 @@ function SecOneloadSizeFarSideBar() {
               feet and ≥50% available <Link to= "/methods/glossary" className="glossary-maplink" target="_blank" rel="noopener noreferrer" title="go to glossary">FAR</Link>. A low % FAR indicates a building that is close to reaching 
               the maximum allowable density on the lot.
               </p>
+              <p className="lastp">See Step 2b: Rezonings to reference neighborhood rezonings from 2012-2022.</p>
             </div>
           </div>
         </div>
