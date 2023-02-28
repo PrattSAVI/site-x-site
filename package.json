@@ -1,7 +1,6 @@
 {
   "name": "site_x_site_r",
   "version": "0.1.0",
-  "homepage": "http://spatialcollections.com/sandbox/site-x-site/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
