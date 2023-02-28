@@ -45,7 +45,7 @@ const Methodology = () => {
           >
             Methodology 
           </Text>
-          <Text as="p" variant="devParagraph" className="dev-par"  mb="60px" mt="10px">
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo" >
             SITE x SITE utilizes publicly available datasets, validated by 
             statistical modeling and historical trends, to simulate soft site 
             identification according to CEQR guidelines and compare the outcomes 
@@ -55,8 +55,8 @@ const Methodology = () => {
             at Soft Site Development in New York City.* 
             </Text>
             <ImageExtended src={layers} />
-            <Text as="p"  variant="caption"  mb="60px">
-            CAPTION: The steps taken in the SITE x SITE study. Soft sites are sites where 
+            <Text  variant="captions"  className="caption">
+            The steps taken in the SITE x SITE study. Soft sites are sites where 
             development is not currently proposed or being planned, but may be expected to 
             occur by the final year through which the main project is studied (“build year”) 
             under CEQR. SITE x SITE compares soft sites as described in the CEQR Technical 
@@ -64,14 +64,16 @@ const Methodology = () => {
             of all recent development, including that which is as-of-right and would not typically 
             be studied under the CEQR process.
           </Text>
-          <Text as="p" variant="devParagraph" className="dev-par"  mb="60px">
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo" >
           SITE x SITE does not identify new variables for determining soft site development. 
           Rather, the study employs existing variables covered under CEQR that contribute the most 
           to development trends on the borough and Public Use Microdata Area (PUMA) levels and 
           examines them in the context of recent rezonings. 
           </Text>
-          <Text variant="devSubHead" mb="5px" >Simulating CEQR</Text>
-          <Text as="p" variant="devParagraph" className="dev-par"  mb="60px">
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
+          <Text as="span" variant="devSubHead"> 
+          Simulating CEQR
+          </Text>
           The CEQR Technical Manual guidelines recommend screening lots according to size and 
           bulk as indicated by lot area and floor area ratio (FAR). If a lot’s area is greater 
           than 5,000 square feet and it has a substantial amount of available unbuilt FAR, the Technical 
@@ -86,7 +88,7 @@ const Methodology = () => {
           including boroughs, PUMAs, and select City-led rezonings.
           </Text>
       
-          <Text as="p" variant="devParagraph" className="dev-par"  mb="60px">
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
           In further narrowing down the pool of soft sites, the CEQR Technical Manual’s methodology accounts 
           for lots that are generally unlikely to be redeveloped because they contain buildings or uses that 
           are difficult to relocate or demolish: certain utility uses, institutional uses, and buildings that 
@@ -94,7 +96,7 @@ const Methodology = () => {
           data points was further refined to include full-block and new institutional and open space uses as 
           well as landmarked sites.
           </Text>
-          <Text as="p" variant="devParagraph" className="dev-par"  mb="20px">
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
           The Technical Manual makes the assumption that residential buildings constructed 
           before 1974 that contain six or more units are likely to be rent stabilized. 
           Although rent stabilized units can be deregulated, there are specific conditions 
@@ -103,44 +105,48 @@ const Methodology = () => {
           rent stabilized units as reported in tax rolls, we found that the CEQR Technical 
           Manual proxy captured 93 percent of all rent stabilized units in New York City. 
           </Text>
-          <ImageExtended src={ criteria }/>
-          <Text as="p"  variant="caption"  mb="60px">
-          CAPTION: This study’s operationalization of relevant site attributes demonstrates one interpretation 
-          of soft site methodology according to the CEQR Technical Manual. The CEQR Technical Manual’s additional 
-          considerations are most interpretive, with the intention of facilitating some discretion on a project-by-project 
-          basis. While the broad definitions allow flexibility, they can also lead to inconsistencies in soft site criteria.
-          </Text>
-          <Text as="p" variant="devParagraph" className="dev-par"  mb="60px">
+          <Flex flexDirection="column" className="flex-par">
+            <ImageExtended src={ criteria }/>
+            <Text  variant="captions"  className="caption">
+            This study’s operationalization of relevant site attributes demonstrates one interpretation 
+            of soft site methodology according to the CEQR Technical Manual. The CEQR Technical Manual’s additional 
+            considerations are most interpretive, with the intention of facilitating some discretion on a project-by-project 
+            basis. While the broad definitions allow flexibility, they can also lead to inconsistencies in soft site criteria.
+            </Text>
+          </Flex>
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
           More information can be found in the SITE x SITE: A Lookback at Soft Site Development in New Y
           ork City report, Chapters 3 (Methodology) and 5 (Appendix).
           </Text>
-
+        </Flex>
+        <Flex as="section" className="flex-column" >
           <Text
             as="h2"
             variant="sectionHeadTitle"
             color="part2Header"
-            marginTop="0px"
-            marginBottom="21px"
           >
             Sources
           </Text>
-          <Text as="p" variant="devParagraph" className="dev-par"  mb="60px">
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
           To examine New York City development over a ten year period, New York City tax lot data from MapPluto™ was first 
           used to compile a dataset spanning 2007 through 2017 data to look at historical outcomes of the CEQR process. 
           That analysis forms the basis for contemporary analysis for use in the SITE x SITE web tool that is suited to 
           interactive data visualization and covers the years from 2012 through 2022. 
-          <br /> <br /> 
+          </Text>
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
           MapPLUTO contains over 850,000 tax lots with more than 70 attribute fields. In order to present this spatial data 
           on a website, it was subset and reduced to essential fields and lot types. One subset  contains all sites developed 
           between 2012 and 2022, and the other contains lots that would have been considered soft sites or that met other 
           criteria CEQR identifies as factors in development such as zoning changes, and social and neighborhood conditions 
           in 2012. From these two datasets, a SITE x SITE user is able to follow the process CEQR outlines in its review 
           process. 
-          <br /> <br /> 
+          </Text>
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
           Recently developed sites are identified as lots that were built after 2011 or lots that were merged, or increased 
           in size. Merged lots were identified by comparing 2012 to 2022 lots and finding all that disappeared or increased 
           in size.
-          <br /> <br /> 
+          </Text>
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
           Soft sites are lots that met the following criteria in 2012: 
           <ul>
               <li>were larger than or equal to 5,000 sf,</li>
@@ -151,7 +157,8 @@ const Methodology = () => {
               <li>did not have uses that were considered difficult to relocate according to CEQR documents: 
                 <a href="https://www1.nyc.gov/assets/finance/jump/hlpbldgcode.html"  target="_blank"  rel="noopener noreferrer" className="link"> building classes</a>: Q0 Q1 T1 T2 U1 U2 U3 W1 Z5 Z8 (utilities, transportation facilities, education facilities, city agencies, parks.</li>
           </ul>
-          <br /> 
+          </Text>
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
           Rent stabilization is identified with the proxy used by CEQR: sites with buildings containing 6 or more units and 
           built before 1974. Rent Stabilization is also identified through analysis for the 2007-2017 historical study. 
           These values are scraped from tax documents and some missing values were extrapolated between known values 
@@ -160,35 +167,48 @@ const Methodology = () => {
           Work by John Krauss (2007-2011) and Chris Whong (2014) has also been consulted to establish where rent 
           stabilization was present during these years. SITE x SITE compares this analysis for 2012 with the results 
           of the CEQR proxy for 2012 tax lots.
-          <br /> <br /> 
+          </Text>
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
           Other indicators considered in SITE x SITE:
-          <br /> <br /> 
-          <Text as="p" variant="devSubHead" >Social and neighborhood conditions: </Text>
+          </Text>
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
+            <Text as="span" variant="devSubHead"> 
+            Social and neighborhood conditions
+            </Text>
           2007 -2017 analysis utilizes population and housing data from the American Community Survey, 5 year survey at a PUMA (Public Use Microdata Areas) 
           geographic level.  The recently created Equitable Development Explorer and Displacement Risk Index is used for 2012-2022. For consistency and 
           because the historical analysis is done at a PUMA level, the EDDR data that was created at a NTA level (Neighborhood Tabulation Area scale) is 
           joined to PUMAs with a proportional weight based on population totals.
-          <br /> <br /> 
-          <Text as="p" variant="devSubHead" >Development trends:  </Text>
+          </Text>
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
+            <Text as="span" variant="devSubHead"> 
+            Development trends
+            </Text>
           Department of Building Permit issuance data was accessed in October, 2022 and all permits (Type 1, Demo, New Construction) issued between 2012 
           and 2022 are aggregated to the tax lot and then joined to half mile hexagons to facilitate visualization and understanding of the geographic 
           distribution of those permits. 
-          <br /> <br /> 
-          <Text as="p" variant="devSubHead" >Assessed Value Increase:   </Text>
+          </Text>
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
+            <Text as="span" variant="devSubHead"> 
+            Assessed Value Increase
+            </Text>
           The percent that a site value increases when built upon is estimated by subtracting the Assessed Land Value from the Assessed Total value and 
           dividing that by the Assessed Total. These attributes are available for every tax lot in the MapPLUTO datasets. 
-          <br /> <br /> 
-          Merged, Assembled and lots that disappeared are identified by comparing the Borough Block Lot numbers (BBLs) and the lot areas in 2012 MapPLUTO with those in 2022. 
-          <br /> <br /> 
+          </Text>
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
+          {/* Merged, Assembled and lots that disappeared are identified by comparing the Borough Block Lot numbers (BBLs) and the lot areas in 2012 MapPLUTO with those in 2022. 
+          <br /> <br />  */}
           Limitations to development are visualized using datasets available from the New York City Planning Department website:
-          <br />
+          </Text>
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
           <ul>
-              <li>Zoning amendments adopted in the last 10 years as of June 6, 2022</li>
+              <li>Rezonings adopted in the last 10 years as of June 6, 2022</li>
               <li>WRP Coastal Boundary Zones, 2016</li>
               <li>Special Maritime and Industrial Districts, 2016</li>
               <li>Historic Districts, March 2022</li>
           </ul>
-          <br /> <br /> 
+          </Text>
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
           Lot compactness is calculated using the 2012 lot geometry in MapPLUTO and the Polsby Popper equation. 
 
           </Text>
