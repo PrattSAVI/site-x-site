@@ -74,6 +74,9 @@ export const ceqrIntroShowSoftsites = (map) => {
   map.current.setLayoutProperty("case_125_line", "visibility", "none");
   map.current.setLayoutProperty("case_125", "visibility", "none");
   map.current.setLayoutProperty("soft_07", "visibility", "none");
+  map.current.setLayoutProperty("case_bk", "visibility", "none");
+  map.current.setLayoutProperty("case_bk_line", "visibility", "none");
+  map.current.setLayoutProperty("bk_lots", "visibility", "none");
 };
 
 // LOAD style and functions for Intro - CEQR Intro - Limits of soft sites identification
@@ -89,6 +92,9 @@ export const ceqrIntroshowLimits = (map) => {
   map.current.setLayoutProperty("case_125_line", "visibility", "none");
   map.current.setLayoutProperty("case_125", "visibility", "none");
   map.current.setLayoutProperty("soft_07", "visibility", "none");
+  map.current.setLayoutProperty("case_bk", "visibility", "none");
+  map.current.setLayoutProperty("case_bk_line", "visibility", "none");
+  map.current.setLayoutProperty("bk_lots", "visibility", "none");
 };
 
 // // LOAD style and functions for Section 1 - Size & FAR section - ?
@@ -96,6 +102,9 @@ export const ceqrIntroshow125 = (map) => {
   map.current.setLayoutProperty("case_125_line", "visibility", "visible");
   map.current.setLayoutProperty("case_125", "visibility", "visible");
   map.current.setLayoutProperty("soft_07", "visibility", "visible");
+  map.current.setLayoutProperty("case_bk", "visibility", "none");
+  map.current.setLayoutProperty("case_bk_line", "visibility", "none");
+  map.current.setLayoutProperty("bk_lots", "visibility", "none");
   map.current.setLayoutProperty("softsites", "visibility", "none");
   map.current.setLayoutProperty("softsites_dev", "visibility", "none");
   map.current.setLayoutProperty("not_softsites_dev", "visibility", "none");
@@ -108,7 +117,30 @@ export const ceqrIntroshow125 = (map) => {
   map.current.setLayoutProperty('puma_line', 'visibility', 'none');
   /// remove puma name to sidebar
   document.getElementById("popuptext").innerHTML = '';
-  map.current.flyTo({ center: [-73.960706, 40.81001], zoom: 13.3 }); 
+  map.current.flyTo({ center: [-73.970706, 40.81001], zoom: 13.3 }); 
+};
+
+// // LOAD style and functions for Section 1 - Size & FAR section - ?
+export const ceqrIntroshowBK = (map) => {
+  map.current.setLayoutProperty("case_bk", "visibility", "visible");
+  map.current.setLayoutProperty("case_bk_line", "visibility", "visible");
+  map.current.setLayoutProperty("bk_lots", "visibility", "visible");
+  map.current.setLayoutProperty("case_125_line", "visibility", "none");
+  map.current.setLayoutProperty("case_125", "visibility", "none");
+  map.current.setLayoutProperty("soft_07", "visibility", "none");
+  map.current.setLayoutProperty("softsites", "visibility", "none");
+  map.current.setLayoutProperty("softsites_dev", "visibility", "none");
+  map.current.setLayoutProperty("not_softsites_dev", "visibility", "none");
+  map.current.setLayoutProperty("puma_selector", "visibility", "none");
+  map.current.setLayoutProperty("limits", "visibility", "none");
+  map.current.setLayoutProperty("softsites_lim", "visibility", "none");
+  map.current.setPaintProperty('puma_selector', 'fill-color', 'transparent');
+  map.current.setPaintProperty('puma_selector', 'fill-outline-color', 'transparent');
+  map.current.setLayoutProperty('puma_selector', 'visibility', 'none');
+  map.current.setLayoutProperty('puma_line', 'visibility', 'none');
+  /// remove puma name to sidebar
+  document.getElementById("popuptext").innerHTML = '';
+  map.current.flyTo({ center: [-73.989141, 40.690975], zoom: 14 });
 };
 
 // LOAD style and functions for Section 1 - Size & FAR section

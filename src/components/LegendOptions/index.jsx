@@ -48,11 +48,12 @@ const legendOptions = {
     name: "Downtown Brooklyn Case Study (2004)",
     subdescription: "Key Finding: The rezoning was envisioned to spur development with the goal of fostering a new downtown commercial core. While development did occur, the type of development significantly diverged from what was anticipated in the CEQR process. The area has seen almost nine times the estimated residential floor area and commercial space has lagged significantly.",
     section: "case_study",
+    timenote: "Case study soft sites are based on SITE x SITE’s analysis of development from 2007-2017.",
     /// colors and text in legend
     stops: [
-      { text: "Sites< 5,000 square feet or sites that have < 50% available FAR", color: "#FFB809" },
-      { text: "Sites ≥ 5,000 square feet and ≥ 50% available FAR (meet CEQR criteria)", color: "#6A42A4" },
-      { text: "Sites that met CEQR criteria for soft sites in 2007", color: "#ccbbec" },
+      { text: "Developed sites that are NOT soft sites", color: "#FFB809" },
+      { text: "Developed sites that are soft sites", color: "#6A42A4" },
+      { text: "All soft sites", color: "#ccbbec" },
     ],
   },
   // secOneloadSizeFar: {

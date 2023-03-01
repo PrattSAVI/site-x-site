@@ -8,7 +8,8 @@ import ImageExtended from "../../components/ImageExtended";
 import {
   ceqrIntroShowSoftsites,
   ceqrIntroshowLimits,
-  ceqrIntroshow125
+  ceqrIntroshow125,
+  ceqrIntroshowBK
 } from "../../components/Map/mapViews";
 // import MapHeader from "../MapHeader";
 
@@ -233,7 +234,7 @@ function CEQRIntroSideBar() {
               aria-controls="collapseFour"
               // onClick={() => secOneloadSizeFarShowOzone(map)}
               onClick={() => {
-                ceqrIntroshow125(map);
+                ceqrIntroshowBK(map);
                 handleLegend(true, "ceqrIntro4");
               }}
             >
