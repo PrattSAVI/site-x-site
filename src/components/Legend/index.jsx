@@ -59,6 +59,9 @@ const Legend = () => {
           </Flex>
         );
       })}
+      <Text as="p" variant="legendSubText" mt="10px" mb="10px">
+      {legendOptions[legendIndex].timenote}
+      </Text>
       <Text as="p" variant="legendText" mt="10px" mb="10px">
       {legendOptions[legendIndex].subdescription}
       </Text>

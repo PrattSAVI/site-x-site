@@ -33,7 +33,20 @@ const legendOptions = {
   ceqrIntro3: {
     /// legend title
     name: "125 St Case Study (2008)",
-    subdescription: "Key Finding: CEQR projections vastly overestimated overall development. Despite the rezoning’s intentions to increase housing density and create affordable housing, less than one-third of the anticipated residential units have been built overall.",
+    subdescription: "Key Finding: CEQR projections vastly overestimated overall development. Despite the rezoning’s intentions to increase housing density and create affordable housing, less than one-third of the anticipated residential units have been built.",
+    section: "case_study",
+    timenote: "Case study soft sites are based on SITE x SITE’s analysis of development from 2007-2017.",
+    /// colors and text in legend
+    stops: [
+      { text: "Developed sites that are NOT soft sites", color: "#FFB809" },
+      { text: "Developed sites that are soft sites", color: "#6A42A4" },
+      { text: "All soft sites", color: "#ccbbec" },
+    ],
+  },
+  ceqrIntro4: {
+    /// legend title
+    name: "Downtown Brooklyn Case Study (2004)",
+    subdescription: "Key Finding: The rezoning was envisioned to spur development with the goal of fostering a new downtown commercial core. While development did occur, the type of development significantly diverged from what was anticipated in the CEQR process. The area has seen almost nine times the estimated residential floor area and commercial space has lagged significantly.",
     section: "case_study",
     /// colors and text in legend
     stops: [
@@ -101,7 +114,7 @@ const legendOptions = {
     subdescription:  "Key Finding: CEQR projections overestimated the amount of residential development that materialized along major corridors, while the number of smaller developments along low residential mid-blocks was underestimated.",
     stops: [
       {
-        text: "2013 Zoning Amendment", 
+        text: "Rezoning Boundary (2013)", 
         color: "transparent",
         outline: "2px dashed #66A9DC",
       },
@@ -260,7 +273,7 @@ const legendOptions = {
     subdescription:  "Key Finding: CEQR does not account for the lag time between when affordable housing projects are produced and when units are available for tenants to rent. Additionally, there is a lack of public information on the progress of commitments made during a rezoning and how they align with the neighborhood’s needs.",
     stops: [
       {
-        text: "2016 Zoning Amendment", 
+        text: "Rezoning Boundary (2016)", 
         color: "transparent",
         outline: "2px dashed #000000",
       },

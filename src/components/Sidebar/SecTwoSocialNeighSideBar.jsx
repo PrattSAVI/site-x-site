@@ -313,12 +313,12 @@ function SecTwoSocialNeighSideBar() {
               Inclusionary Housing (<Link to= "/methods/glossary" className="glossary-maplink" target="_blank" rel="noopener noreferrer" title="go to glossary">MIH</Link>), which requires at least 25 percent of new residential floor area under 
               a rezoning to be permanently affordable. Though the City pledged 1,200 affordable housing units by 
               2018, just over 100 new units of housing were open to tenants by the end of 2021. Community groups 
-              fear that market-rate development is outpacing affordable housing; the median rent jumped 29 percent 
-              since the rezoning’s implementation through the end of 2021.  According to the City’s Equitable 
+              fear that market-rate development is outpacing affordable housing. By the end of 2021, the median rent 
+              in East New York increased by 29 percent. According to the City’s Equitable 
               Development Data Explorer 
               <a href="https://equitableexplorer.planning.nyc.gov/map/drm/nta?geoid=QN70" target="_blank" rel="noopener noreferrer"  className="maplink"> Displacement Risk Map</a>, 
-              the area’s population is among the most vulnerable 
-              citywide based on race, income, level of English proficiency, and rent burden. Recent affordable 
+              the area’s population is among the city's most vulnerable 
+              based on race, income, level of English proficiency, and rent burden. Recent affordable 
               housing and economic development-centered plans present an opportunity to use the City’s Equitable 
               Development Data Explorer to track the racial impact of these rezonings. 
               </p>

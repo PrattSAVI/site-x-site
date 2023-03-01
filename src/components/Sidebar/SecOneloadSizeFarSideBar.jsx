@@ -216,7 +216,7 @@ function SecOneloadSizeFarSideBar() {
               neighborhood, particularly along low-rise residential mid-blocks. The rezoning also directed 
               mixed-use development along the area’s major corridors. CEQR projections significantly 
               overestimated the amount of residential development that was ultimately built. Less than 
-              half of the residential units anticipated under the plan were constructed. In addition, 
+              61 percent of the residential units anticipated under the plan were constructed. In addition, 
               contrary to the intentions of the rezoning, new development was not limited to major corridors. 
               Although the rezoning is largely characterized as a downzoning, many smaller residential 
               buildings were constructed along area mid-blocks. Overall, actual development more than 
@@ -233,13 +233,13 @@ function SecOneloadSizeFarSideBar() {
                   <div className="column num">
                     <p className="num">89</p>
                   </div>
-                  <div className="column text"> developed lots do not fit CEQR soft site criteria</div>
+                  <div className="column text"> developed lots did not fit CEQR soft site criteria</div>
                 </div>
                 <div className="row size">
                   <div className="column num">
                     <p className="num">55%</p>
                   </div>
-                  <div className="column text"> of developed floor area was on lots that did not fit criteria</div>
+                  <div className="column text"> in floor area derive from the lots that did not fit the criteria</div>
                 </div>
               </div>
               <ImageExtended src={ozone_photo} width="calc(100% + 20px)" marginLeft="-20px" marginTop="10px" />
