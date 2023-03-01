@@ -3,7 +3,7 @@ import { MapContext } from "../../pages/part1";
 import Text from "../../components/Text";
 import { Link } from "react-router-dom";
 import {
-  secThreeDevLimitsShowStab,
+  // secThreeDevLimitsShowStab,
   secThreeDevLimitsShowStabComp,
   secThreeDevLimitsShowHist,
   secThreeShowZoning,
@@ -48,9 +48,8 @@ function SecThreeDevLimitsSideBar() {
       </p> */}
       <div id="popuptext" className="puma-header"></div>
       <div className="accordion" id="accordionExample">
-        <div className="accordion-item">
+        {/* <div className="accordion-item">
           <h2 className="accordion-header" id="headingTwo">
-            {/* legend  = stab_section */}
             <button
               className="accordion-button three-button"
               type="button"
@@ -60,7 +59,7 @@ function SecThreeDevLimitsSideBar() {
               aria-controls="collapseTwo"
               onClick={() => {
                 secThreeDevLimitsShowStab(map);
-                handleLegend(true, "secThreeDevLimits");
+                handleLegend(true, "secThreeDevLimits0");
               }}
             >
               Rent Stabilized Housing: CEQR proxy
@@ -86,12 +85,12 @@ function SecThreeDevLimitsSideBar() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingThree">
             {/* legend  = stab_com_section */}
             <button
-              className="accordion-button three-button collapsed"
+              className="accordion-button three-button "
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseThree"
@@ -99,7 +98,7 @@ function SecThreeDevLimitsSideBar() {
               aria-controls="collapseThree"
               onClick={() => {
                 secThreeDevLimitsShowStabComp(map);
-                handleLegend(true, "secThreeDevLimits2");
+                handleLegend(true, "secThreeDevLimits");
               }}
             >
               Explore Rent Stabilization Methods
@@ -107,20 +106,21 @@ function SecThreeDevLimitsSideBar() {
           </h2>
           <div
             id="collapseThree"
-            className="accordion-collapse collapse"
+            className="accordion-collapse collapse show"
             aria-labelledby="headingThree"
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
               <p className="sidep">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia,
-                error facilis ea explicabo nemo aperiam veritatis sapiente
-                minima est perspiciatis enim animi, vitae eveniet obcaecati ut
-                dignissimos voluptate alias eligendi. Lorem ipsum, dolor sit
-                amet consectetur adipisicing elit. Quia, error facilis ea
-                explicabo nemo aperiam veritatis sapiente minima est
-                perspiciatis enim animi, vitae eveniet obcaecati ut dignissimos
-                voluptate alias eligendi.
+              The <i>CEQR Technical Manual</i> assumes that residential buildings
+              constructed before 1974 that consist of six or more units are
+              likely to be rent stabilized and are not typically 
+              considered <Link to= "/methods/glossary" className="glossary-maplink" target="_blank" rel="noopener noreferrer" title="go to glossary">soft sites</Link>. To evaluate how accurately this assumption
+              identifies rent stabilized buildings, the outcome was compared
+              against NYC Department of Finance (<Link to= "/methods/glossary" className="glossary-maplink" target="_blank" rel="noopener noreferrer" title="go to glossary">DOF</Link>) property tax data on
+              actual unit counts for rent stabilization. The CEQR proxy was
+              found to cover 93 percent of rent stabilized units,
+              demonstrating that it was reliable in this study.
               </p>
             </div>
           </div>

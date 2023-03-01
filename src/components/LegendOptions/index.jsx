@@ -285,7 +285,7 @@ const legendOptions = {
       { text: "5: highest risk", color: "#3C2D72" },
       ],
   },
-  secThreeDevLimits: {
+  secThreeDevLimits0: {
     /// legend title
     name: "Rent Stabilized Buildings",
     /// legend subtitle
@@ -298,13 +298,14 @@ const legendOptions = {
       { text: "Undeveloped soft sites", color: "#B3B1AB" },
     ],
   },
-  secThreeDevLimits2: {
+  secThreeDevLimits: {
     /// legend title
     name: "How are rent stabilized properties identifed?",
     /// legend subtitle
     description: "Compare CEQR Proxy and tax document analysis",
     section: "stab_com_section",
     stops: [
+      { text: "Rent stabilized and developed", color: "#000000" },
       { text: "Identified by CEQR proxy AND analysis", color: "#F73939" },
       { text: "CEQR proxy only", color: "#FCC2C0" },
       { text: "Tax documents analysis only", color: "#5DAEE0" },

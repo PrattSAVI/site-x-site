@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sandbox/site-x-site/static/css/main.dd263097.css",
-    "main.js": "/sandbox/site-x-site/static/js/main.327894bb.js",
+    "main.js": "/sandbox/site-x-site/static/js/main.55784bf6.js",
     "static/media/ceqr_cover_el-min.png": "/sandbox/site-x-site/static/media/ceqr_cover_el-min.0f3d67a5ac0bfb6116f8.png",
     "static/media/ozone_photo_min.jpg": "/sandbox/site-x-site/static/media/ozone_photo_min.f9259227a657ba98eb47.jpg",
     "static/media/newConstruction_min.jpg": "/sandbox/site-x-site/static/media/newConstruction_min.3c44055d36931dc99439.jpg",
@@ -56,10 +56,10 @@
     "static/media/blackArrow.svg": "/sandbox/site-x-site/static/media/blackArrow.36e8528eb5e9e44ae079de83f9f46593.svg",
     "static/media/whiteArrow.svg": "/sandbox/site-x-site/static/media/whiteArrow.0f0539a6ec3dae07355a29ed5e7adc94.svg",
     "main.dd263097.css.map": "/sandbox/site-x-site/static/css/main.dd263097.css.map",
-    "main.327894bb.js.map": "/sandbox/site-x-site/static/js/main.327894bb.js.map"
+    "main.55784bf6.js.map": "/sandbox/site-x-site/static/js/main.55784bf6.js.map"
   },
   "entrypoints": [
     "static/css/main.dd263097.css",
-    "static/js/main.327894bb.js"
+    "static/js/main.55784bf6.js"
   ]
 }

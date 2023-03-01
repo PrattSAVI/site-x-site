@@ -498,30 +498,29 @@ export const secThreeDevLimits = (map) => {
 };
 
 // LOAD style and functions for Section 3 - Dev Limitations - Rent Stabilization
-export const secThreeDevLimitsShowStab = (map) => {
-  map.current.setLayoutProperty("dev_stab", "visibility", "visible");
-  map.current.setLayoutProperty("stab_proxy", "visibility", "visible");
-  map.current.setLayoutProperty("dev_no_stab", "visibility", "visible");
-  map.current.setLayoutProperty("soft_sites", "visibility", "visible");
-  map.current.setLayoutProperty("rec_dev", "visibility", "none");
-  map.current.setLayoutProperty("coastal", "visibility", "none");
-  map.current.setLayoutProperty("historical", "visibility", "none");
-  map.current.setLayoutProperty("presmia", "visibility", "none");
-  map.current.setLayoutProperty("zoning_a", "visibility", "none");
-  map.current.setLayoutProperty("compact", "visibility", "none");
-  map.current.setLayoutProperty("stab_compare", "visibility", "none");
-};
+// export const secThreeDevLimitsShowStab = (map) => {
+//   map.current.setLayoutProperty("dev_stab", "visibility", "visible");
+//   map.current.setLayoutProperty("stab_proxy", "visibility", "visible");
+//   map.current.setLayoutProperty("dev_no_stab", "visibility", "visible");
+//   map.current.setLayoutProperty("soft_sites", "visibility", "visible");
+//   map.current.setLayoutProperty("rec_dev", "visibility", "none");
+//   map.current.setLayoutProperty("coastal", "visibility", "none");
+//   map.current.setLayoutProperty("historical", "visibility", "none");
+//   map.current.setLayoutProperty("presmia", "visibility", "none");
+//   map.current.setLayoutProperty("zoning_a", "visibility", "none");
+//   map.current.setLayoutProperty("compact", "visibility", "none");
+//   map.current.setLayoutProperty("stab_compare", "visibility", "none");
+// };
 
 // LOAD style and functions for Section 3 - Dev Limitations - Rent Stabilization Comp
 export const secThreeDevLimitsShowStabComp = (map) => {
   map.current.setLayoutProperty("stab_compare", "visibility", "visible");
+  map.current.setLayoutProperty("dev_stab", "visibility", "visible");
   map.current.setLayoutProperty("soft_sites", "visibility", "none");
   map.current.setLayoutProperty("rec_dev", "visibility", "none");
   map.current.setLayoutProperty("zoning_a", "visibility", "none");
   map.current.setLayoutProperty("compact", "visibility", "none");
-  map.current.setLayoutProperty("dev_stab", "visibility", "none");
   map.current.setLayoutProperty("stab_proxy", "visibility", "none");
-  map.current.setLayoutProperty("dev_no_stab", "visibility", "none");
   map.current.setLayoutProperty("coastal", "visibility", "none");
   map.current.setLayoutProperty("historical", "visibility", "none");
   map.current.setLayoutProperty("presmia", "visibility", "none");
@@ -534,7 +533,6 @@ export const secThreeDevLimitsShowHist = (map) => {
   map.current.setLayoutProperty("stab_compare", "visibility", "none")
   map.current.setLayoutProperty("dev_stab", "visibility", "none");
   map.current.setLayoutProperty("stab_proxy", "visibility", "none");
-  map.current.setLayoutProperty("dev_no_stab", "visibility", "none");
   map.current.setLayoutProperty("presmia", "visibility", "visible");
   map.current.setLayoutProperty("historical", "visibility", "visible");
   map.current.setLayoutProperty("coastal", "visibility", "visible");
@@ -548,7 +546,6 @@ export const secThreeShowZoning = (map) => {
   map.current.setLayoutProperty("zoning_a", "visibility", "visible");
   map.current.setLayoutProperty("soft_sites", "visibility", "visible");
   map.current.setLayoutProperty("rec_dev", "visibility", "visible");
-  map.current.setLayoutProperty("dev_no_stab", "visibility", "none");
   map.current.setLayoutProperty("stab_compare", "visibility", "none");
   map.current.setLayoutProperty("dev_stab", "visibility", "none");
   map.current.setLayoutProperty("stab_proxy", "visibility", "none");
@@ -563,7 +560,6 @@ export const secThreeShowCompact = (map) => {
   map.current.setLayoutProperty("zoning_a", "visibility", "none");
   map.current.setLayoutProperty("soft_sites", "visibility", "none");
   map.current.setLayoutProperty("rec_dev", "visibility", "none");
-  map.current.setLayoutProperty("dev_no_stab", "visibility", "none");
   map.current.setLayoutProperty("stab_compare", "visibility", "none");
   map.current.setLayoutProperty("dev_stab", "visibility", "none");
   map.current.setLayoutProperty("stab_proxy", "visibility", "none");
