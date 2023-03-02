@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sandbox/site-x-site/static/css/main.dd263097.css",
-    "main.js": "/sandbox/site-x-site/static/js/main.9cbecc08.js",
+    "main.css": "/sandbox/site-x-site/static/css/main.4f95a37f.css",
+    "main.js": "/sandbox/site-x-site/static/js/main.c99caa15.js",
     "static/media/ceqr_cover_el-min.png": "/sandbox/site-x-site/static/media/ceqr_cover_el-min.0f3d67a5ac0bfb6116f8.png",
     "static/media/ozone_photo_min.jpg": "/sandbox/site-x-site/static/media/ozone_photo_min.f9259227a657ba98eb47.jpg",
     "static/media/newConstruction_min.jpg": "/sandbox/site-x-site/static/media/newConstruction_min.3c44055d36931dc99439.jpg",
@@ -27,7 +27,9 @@
     "static/media/CEQR_process.png": "/sandbox/site-x-site/static/media/CEQR_process.d24c26e33316d7aedfdc.png",
     "static/media/primer_opener_4.jpg": "/sandbox/site-x-site/static/media/primer_opener_4.5c01ea9dd8c7ee39cab2.jpg",
     "static/media/bushwick_plan-min.png": "/sandbox/site-x-site/static/media/bushwick_plan-min.814a391df06f278e80bd.png",
+    "static/media/chart_bk.svg": "/sandbox/site-x-site/static/media/chart_bk.3f2f64a9d8d84c73757d20804873acb6.svg",
     "static/media/before_after_1510-min.png": "/sandbox/site-x-site/static/media/before_after_1510-min.d0e5b8450dcc4101c1ce.png",
+    "static/media/chart_125th.svg": "/sandbox/site-x-site/static/media/chart_125th.dc05381c4775aad76a5c236bdae56a8e.svg",
     "static/media/SunnysideYards.jpg": "/sandbox/site-x-site/static/media/SunnysideYards.12d5d6378a477894c868.jpg",
     "static/media/Union_Theological_Seminary.jpg": "/sandbox/site-x-site/static/media/Union_Theological_Seminary.fe794dad7b4d05d17b9b.jpg",
     "static/media/Farley_alteration_2019.jpg": "/sandbox/site-x-site/static/media/Farley_alteration_2019.1a912b395b825fae0ae9.jpg",
@@ -43,7 +45,6 @@
     "static/media/lot_merger.svg": "/sandbox/site-x-site/static/media/lot_merger.0c686de2821a8f92c24923792ea9bf2f.svg",
     "static/media/table_graphic.svg": "/sandbox/site-x-site/static/media/table_graphic.df732de69121d5df927594e88921232b.svg",
     "static/media/ozone.svg": "/sandbox/site-x-site/static/media/ozone.db93f429ffe638dabb2dbe1841d4f4c5.svg",
-    "static/media/chart_125th_min.svg": "/sandbox/site-x-site/static/media/chart_125th_min.4ce7f22f54e102cd7124c7db60f74243.svg",
     "static/media/east_ny_chart.svg": "/sandbox/site-x-site/static/media/east_ny_chart.f30896aba29625c77e9d4d84df34df42.svg",
     "static/media/SiteXSite_logo.svg": "/sandbox/site-x-site/static/media/SiteXSite_logo.4b6b1df9b6fd4e7c7045c364637e8a2a.svg",
     "static/media/TDR_min.svg": "/sandbox/site-x-site/static/media/TDR_min.c8fb386842525aff1dca60c95b97346d.svg",
@@ -55,11 +56,11 @@
     "static/media/greyArrow.svg": "/sandbox/site-x-site/static/media/greyArrow.26dafe29e9b9a2bcfa3c30a5513e13d9.svg",
     "static/media/blackArrow.svg": "/sandbox/site-x-site/static/media/blackArrow.36e8528eb5e9e44ae079de83f9f46593.svg",
     "static/media/whiteArrow.svg": "/sandbox/site-x-site/static/media/whiteArrow.0f0539a6ec3dae07355a29ed5e7adc94.svg",
-    "main.dd263097.css.map": "/sandbox/site-x-site/static/css/main.dd263097.css.map",
-    "main.9cbecc08.js.map": "/sandbox/site-x-site/static/js/main.9cbecc08.js.map"
+    "main.4f95a37f.css.map": "/sandbox/site-x-site/static/css/main.4f95a37f.css.map",
+    "main.c99caa15.js.map": "/sandbox/site-x-site/static/js/main.c99caa15.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd263097.css",
-    "static/js/main.9cbecc08.js"
+    "static/css/main.4f95a37f.css",
+    "static/js/main.c99caa15.js"
   ]
 }

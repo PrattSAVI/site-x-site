@@ -74,7 +74,7 @@ const SectionOne = () => {
             </Flex>
           </Flex>
           <Text as="p"  variant="devParagraph" className="dev-par par-solo"  >
-            <Text as="p" variant="devSubHead" display="inline">
+            <Text as="span" variant="devSubHead" display="inline">
               Environmental review is a highly technocratic process.
             </Text>{" "}
             The public and decision-makers alike would benefit from a broader 

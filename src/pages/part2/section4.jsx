@@ -290,12 +290,12 @@ const SectionFour = () => {
             CEQR review identifies two types of soft sites: 
           </Text>
           <Text as="p"  variant="devParagraph" className="dev-par"  marginLeft="60px">
-            <Text as="p" variant="devSubHead" display="inline">
+            <Text as="span" variant="devSubHead" display="inline">
             Projected: 
             </Text>{" "}
             Future development is assumed for the purpose of impact identification 
             <br />
-            <Text as="p" variant="devSubHead" display="inline">
+            <Text as="span" variant="devSubHead" display="inline">
             Potential: 
             </Text>{" "}
             Future development is assumed for the purpose of impact identification 

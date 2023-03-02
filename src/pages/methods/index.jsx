@@ -148,6 +148,8 @@ const Methodology = () => {
           </Text>
           <Text as="p"  variant="devParagraph" className="dev-par par-solo">
           Soft sites are lots that met the following criteria in 2012: 
+          </Text>
+          <Text as="div"  variant="devParagraph" className="dev-par par-solo">
           <ul>
               <li>were larger than or equal to 5,000 sf,</li>
               <li>had 50% or more Allowable Floor Area Ratio (FAR) which was calculated by finding the greater of total allowable FAR For each site (commercial or residential) and subtracting the Built FAR,</li>
@@ -200,7 +202,7 @@ const Methodology = () => {
           <br /> <br />  */}
           Limitations to development are visualized using datasets available from the New York City Planning Department website:
           </Text>
-          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
+          <Text as="div"  variant="devParagraph" className="dev-par par-solo">
           <ul>
               <li>Rezonings adopted in the last 10 years as of June 6, 2022</li>
               <li>WRP Coastal Boundary Zones, 2016</li>

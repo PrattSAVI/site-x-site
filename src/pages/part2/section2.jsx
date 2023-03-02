@@ -194,15 +194,13 @@ const SectionTwo = () => {
           monuments. Buildings in historic districts, including individual
           landmarks, are also ineligible.
           </Text>
-          <Text as="p"  variant="devParagraph" className="dev-par par-solo" >
-            <Flex flexDirection="column" mb="30px">
+            <Flex flexDirection="column" mb="30px" mt="30px">
               <ImageExtended src={seminary}/>
               <Text variant="captions" className="caption"textAlign="left">
               Transfer of Air Rights at Union Theological Seminary in Morningside Heights. 
                Source: Creative Commons, ajay_suresh
               </Text>
             </Flex>
-          </Text>
         </Flex>
         <Flex as="section" className="flex-column" >
           <Text
@@ -334,28 +332,28 @@ const SectionTwo = () => {
             examples include:
           </Text>
           <Text as="p"  variant="devParagraph" className="dev-par par-solo"  marginLeft="60px">
-            <Text as="p" variant="devSubHead" display="inline">
+            <Text as="span" variant="devSubHead" display="inline">
               Housing
             </Text>{" "}
             uses like apartment buildings, condos, row houses, and single family
             houses
             <br />
-            <Text as="p" variant="devSubHead" display="inline">
+            <Text as="span" variant="devSubHead" display="inline">
               Commercial
             </Text>{" "}
             uses like office buildings, retail shops
             <br />
-            <Text as="p" variant="devSubHead" display="inline">
+            <Text as="span" variant="devSubHead" display="inline">
               Industrial/Manufacturing
             </Text>{" "}
             uses like factories, sewage treatment plants
             <br />
-            <Text as="p" variant="devSubHead" display="inline">
+            <Text as="span" variant="devSubHead" display="inline">
               Transportation/Utility
             </Text>{" "}
             uses like bus garages, power stations, water resource facilities
             <br />
-            <Text as="p" variant="devSubHead" display="inline">
+            <Text as="span" variant="devSubHead" display="inline">
               Public Facilities & Institutions
             </Text>{" "}
             uses like government buildings, schools, hospitals
