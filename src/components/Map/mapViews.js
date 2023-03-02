@@ -1,7 +1,4 @@
-// import React, { useState } from "react";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
-// import ReactDOM from 'react-dom';
-// import Tooltip from '../../components/Tooltip';
 
 // LOAD style and functions for Intro - CEQR Intro
 export const ceqrIntro = (map) => {
@@ -12,8 +9,6 @@ export const ceqrIntro = (map) => {
   map.current.flyTo({ center: [-74.007919, 40.702043], zoom: 10 });
 
   map.current.on("click", (e) => {
-    // const tooltipRef = useRef(new mapboxgl.Popup({ offset: 15 }));
-    // If the user clicked on one of your markers, get its information.
     const features = map.current.queryRenderedFeatures(e.point, {
       layers: ["puma_selector"], // replace with your layer name
     });
@@ -46,6 +41,11 @@ export const ceqrIntro = (map) => {
       ['match', ['get', 'puma'], feature.properties.puma, "#787878" , "transparent"]
     );
     map.current.setLayoutProperty('puma_line', 'visibility', 'visible');
+
+    if (!document.getElementById("popuptext_nyc")) {
+      return;
+    }
+    document.getElementById("popuptext_nyc").className = "nyc-hide";
 
     document.getElementById("popuptext").innerHTML = '<p class="puma-label intro">' + feature.properties.nabes + '</p>' +
     '<div class="row soft">' +

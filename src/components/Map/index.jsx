@@ -1,8 +1,6 @@
 import React, { useEffect, useContext } from "react";
 import Box from "../Box";
-// import Flex from "../Flex";
 import "../../styles/map.css";
-// import "../../styles/mapbox-gl.css";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
 import mapboxToken from "./mapboxToken";
 import { zoomToNYC } from "./mapUtils";
@@ -33,21 +31,16 @@ const Map = ({ mapContainerRef }) => {
       <Box
         position="fixed"
         className="nyc"
-        // top="35px"
-        // right="calc(25% + 5px)"
         top="432px"
         left="30px"
         zIndex="1000"
         width="57px"
         height="30px"
-        // borderRadius="4px"
         borderRadius="10pt"
-        // backgroundColor="#ffffff"
         backgroundColor="transparent"
         color="#a3a199"
         border="1px solid #908E8E"
         textAlign="center"
-        // marginRight="8px"
         fontSize="19px"
         fontWeight="600"
         onClick={() => zoomToNYC(map)}

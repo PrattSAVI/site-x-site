@@ -72,6 +72,10 @@ function SecOneloadSizeFarSideBar() {
               feet and ≥50% available <Link to= "/methods/glossary" className="glossary-maplink" target="_blank" rel="noopener noreferrer" title="go to glossary">FAR</Link>. A low % FAR indicates a building that is close to reaching 
               the maximum allowable density on the lot.
               </p>
+              <Text as="p" variant="sideBold" mb="5px" >Lot Size</Text>
+              <ImageExtended src={lot_hist} mb="5px" />
+              <Text as="p" variant="sideBold" mt="20px" mb="5px" >Available Floor Area Ratio</Text>
+              <ImageExtended src={far_hist} mb="5px" />
               <p className="lastp">See Step 2b: Rezonings to reference neighborhood rezonings from 2012-2022.</p>
             </div>
           </div>
@@ -103,10 +107,14 @@ function SecOneloadSizeFarSideBar() {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              {/* <ImageExtended src={lot_hist} mb="5px" /> */}
+            <p className="sidep">
+                Our analysis finds that the size and bulk of recently developed
+                lots (newly constructed or subject to a <Link to= "/methods/glossary" className="glossary-maplink" target="_blank" rel="noopener noreferrer" title="go to glossary">merger</Link>) varies widely
+                across the five boroughs, which can be explored in the map using
+                the sliders below. 
+              </p>
               <p className="hist">Lot Size:</p>
               <p className="slider-value">{ lotValue.toLocaleString("en-US") } SF</p>
-              {/* these two sliders connect to SliderLot and SliderFar */}
               <div className="lot_slidecontainer range-wrap">
                 <input
                   type="range"
@@ -144,16 +152,16 @@ function SecOneloadSizeFarSideBar() {
                 <p className="maxp">100%</p>
                 {/* <output className="bubble"></output> */}
               </div>
-              <p className="sidep">
+              {/* <p className="sidep">
                 Our analysis finds that the size and bulk of recently developed
                 lots (newly constructed or subject to a <Link to= "/methods/glossary" className="glossary-maplink" target="_blank" rel="noopener noreferrer" title="go to glossary">merger</Link>) varies widely
                 across the five boroughs, which can be explored in the map using
                 the sliders above. 
-              </p>
-              <Text as="p" variant="sideBold" mb="5px" >Lot Size</Text>
+              </p> */}
+              {/* <Text as="p" variant="sideBold" mb="5px" >Lot Size</Text>
               <ImageExtended src={lot_hist} mb="5px" />
               <Text as="p" variant="sideBold" mt="20px" mb="5px" >Available Floor Area Ratio</Text>
-              <ImageExtended src={far_hist} mb="5px" />
+              <ImageExtended src={far_hist} mb="5px" /> */}
 
               <div className='chartToggle'>
                 <div className="form-check">

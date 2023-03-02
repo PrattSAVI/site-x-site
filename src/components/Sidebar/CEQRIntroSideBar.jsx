@@ -55,7 +55,7 @@ function CEQRIntroSideBar() {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <div id="popuptext">
+              <div id="popuptext_nyc">
                 {/* <p className="neighbor">{ feature.properties.nabes }</p> */}
                 <div className="row soft">
                   <div className="column num">
@@ -75,13 +75,8 @@ function CEQRIntroSideBar() {
                   </div>
                   <div className="column text"> lots that did not fit CEQR soft site criteria were also developed</div>
                 </div>
-                {/* <div className="row intro">
-                  <div className="column num">
-                    <p className="num">61%</p>
-                  </div>
-                  <div className="column text"> of developed lot floor area (gsf) of lots did not fit criteria</div>
-                </div> */}
               </div>
+              <div id="popuptext"></div>
               <Text as="p" className="sidep" mt="20px">
               {/* <p className="sidep"> */}
               When developable sites are not fully evaluated for impacts, unintentional consequences 

@@ -6,6 +6,10 @@ export const zoomToNYC = (map) => {
   map.current.setLayoutProperty('puma_line', 'visibility', 'none');
   /// remove puma name to sidebar
   document.getElementById("popuptext").innerHTML = '';
+  if (!document.getElementById("popuptext_nyc")) {
+    return;
+  }
+  document.getElementById("popuptext_nyc").className = "nyc-show";
 };
 
 

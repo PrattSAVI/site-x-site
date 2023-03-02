@@ -6,7 +6,8 @@ import Flex from "../Flex";
 import Text from "../Text";
 import ozone from "../../public/images/part1/ozone.svg";
 import eastny from "../../public/images/part1/east_ny_chart.svg";
-import harlem from "../../public/images/part1/chart_125th_min.svg";
+import harlem from "../../public/images/part1/chart_125th.svg";
+import brooklyn from "../../public/images/part1/chart_bk.svg";
 import ImageExtended from "../../components/ImageExtended";
 
 const Legend = () => {
@@ -73,6 +74,9 @@ const Legend = () => {
       }
       { legendOptions[legendIndex].name  === "125 St Case Study (2008)" && 
         <ImageExtended src={ harlem } width="340px" marginLeft="-15px" mb="-20px" ></ImageExtended>
+      }
+      { legendOptions[legendIndex].name  === "Downtown Brooklyn Case Study (2004)" && 
+        <ImageExtended src={ brooklyn } width="340px" marginLeft="-15px" mb="-20px" ></ImageExtended>
       }
       { legendOptions[legendIndex].section  !== "case_study" && 
         <Text as="p" variant="legendSubText" mt="10px" mb="0px" >

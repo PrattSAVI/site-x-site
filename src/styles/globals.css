@@ -461,7 +461,7 @@ p.num {
   margin-top: 10px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1340px) {
   p.num {
     font-size: 30px;
   }
@@ -1199,6 +1199,14 @@ g text.bar-label {
   /* .savi-logo {
     width: 50px !important;
   } */
+}
+
+.nyc-show {
+  display: block;
+}
+
+.nyc-hide {
+  display: none;
 }
 
 
