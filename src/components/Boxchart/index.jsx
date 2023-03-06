@@ -53,7 +53,7 @@ const BoxChart = ({ lot_value, far_value }) => {
 
   useEffect(() => {
     d3.csv(
-      "https://raw.githubusercontent.com/skhaji/test_data/main/pluto_rec_dev12_2.csv",
+      "https://raw.githubusercontent.com/PrattSAVI/site-x-site/main/data/pluto_rec_dev12_2.csv",
       (data) => {
         setData(data);
         createMap(data);

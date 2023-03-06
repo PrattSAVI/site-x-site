@@ -37,7 +37,7 @@ const DotChart = () => {
 
     // Read the data and compute summary statistics for each specie
     d3.csv(
-      "https://raw.githubusercontent.com/skhaji/test_data/main/puma_displacement.csv",
+      "https://raw.githubusercontent.com/PrattSAVI/site-x-site/main/data/puma_displacement.csv",
       function (data) {
         // Add the options to the button
         d3.select("#selectButton")

@@ -131,7 +131,9 @@ const Methodology = () => {
           To examine New York City development over a ten year period, New York City tax lot data from MapPluto™ was first 
           used to compile a dataset spanning 2007 through 2017 data to look at historical outcomes of the CEQR process. 
           That analysis forms the basis for contemporary analysis for use in the SITE x SITE web tool that is suited to 
-          interactive data visualization and covers the years from 2012 through 2022. 
+          interactive data visualization and covers the years from 2012 through 2022. MapPluto 2012 v1 and 2022 v1 available 
+          on the NYC Planning Department website were used.
+
           </Text>
           <Text as="p"  variant="devParagraph" className="dev-par par-solo">
           MapPLUTO contains over 850,000 tax lots with more than 70 attribute fields. In order to present this spatial data 
@@ -177,19 +179,13 @@ const Methodology = () => {
             <Text as="span" variant="devSubHead"> 
             Social and neighborhood conditions
             </Text>
-          2007 -2017 analysis utilizes population and housing data from the American Community Survey, 5 year survey at a PUMA (Public Use Microdata Areas) 
-          geographic level.  The recently created Equitable Development Explorer and Displacement Risk Index is used for 2012-2022. For consistency and 
+          2007&ndash;2017 analysis utilizes population and housing data from the American Community Survey, 5 year survey at a PUMA (2020 Public Use Microdata Areas) 
+          geographic level.  The recently created <a href="https://equitableexplorer.planning.nyc.gov/map/data/district?geoid=3809"  target="_blank"  rel="noopener noreferrer" className="link"> Equitable Development Explorer and Displacement Risk Index</a> is 
+          used for 2012&ndash;2022. For consistency and 
           because the historical analysis is done at a PUMA level, the EDDR data that was created at a NTA level (Neighborhood Tabulation Area scale) is 
           joined to PUMAs with a proportional weight based on population totals.
           </Text>
-          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
-            <Text as="span" variant="devSubHead"> 
-            Development trends
-            </Text>
-          Department of Building Permit issuance data was accessed in October, 2022 and all permits (Type 1, Demo, New Construction) issued between 2012 
-          and 2022 are aggregated to the tax lot and then joined to half mile hexagons to facilitate visualization and understanding of the geographic 
-          distribution of those permits. 
-          </Text>
+    
           <Text as="p"  variant="devParagraph" className="dev-par par-solo">
             <Text as="span" variant="devSubHead"> 
             Assessed Value Increase
@@ -204,16 +200,18 @@ const Methodology = () => {
           </Text>
           <Text as="div"  variant="devParagraph" className="dev-par par-solo">
           <ul>
-              <li>Rezonings adopted in the last 10 years as of June 6, 2022</li>
+              <li>Rezonings adopted in the last 10 years as of June 6, 2022 (dataset name: NYC Zoning Map Amendments)
+</li>
               <li>WRP Coastal Boundary Zones, 2016</li>
               <li>Special Maritime and Industrial Districts, 2016</li>
               <li>Historic Districts, March 2022</li>
           </ul>
           </Text>
-          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo" mt="14px">
           Lot compactness is calculated using the 2012 lot geometry in MapPLUTO and the Polsby Popper equation. 
-
           </Text>
+          <Text as="p"  variant="devParagraph" className="dev-par par-solo">Street labels were created with the Digital City Map DCM_StreetCenterLine dataset from the 
+            department of planning website.</Text>
 
         </Flex>
         <Box marginTop="345px" marginBottom="85px">
