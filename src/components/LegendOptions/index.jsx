@@ -83,7 +83,6 @@ const legendOptions = {
         text: "Sites ≥ 5,000 square feet and ≥ 50% available FAR (meet CEQR criteria)",
         color: "#A3A199",
       },
-      {text: ""},
       { text: "Soft sites with no recent development", color: "#D5D5D4" },
     ],
   },
