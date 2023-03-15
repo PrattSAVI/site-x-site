@@ -18,16 +18,16 @@ const legendOptions = {
   },
   ceqrIntro2: {
     /// legend title
-    name: "Soft Site Identification",
+    name: "Limits of Soft Site Identification",
     /// legend subtitle
-    description: "Difficult to Relocate Site Uses",
+    // description: "Difficult to Relocate Site Uses",
     section: "limits_section",
     stops: [
       { text: "Unlikely to be developed building classes", color: "#ffba0a" },
       { text: "Landmarked sites", color: "#42ACD1" },
       { text: "Difficult to relocate uses", color: "#886DA3" },
       { text: "Land use categories", color: "#6bb35b" },
-      { text: "Soft sites", color: "#a3a199" },
+      // { text: "Soft sites", color: "#a3a199" },
     ],
   },
   ceqrIntro3: {
@@ -76,11 +76,11 @@ const legendOptions = {
     section: "ceqr_section",
     stops: [
       {
-        text: "Smaller than 5,000 sf or has less than 50% available FAR",
+        text: "Doesn’t Meet CEQR Criteria",
         color: "#258CCC",
       },
       {
-        text: "Sites ≥ 5,000 square feet and ≥ 50% available FAR (meet CEQR criteria)",
+        text: "Meets CEQR Criteria",
         color: "#A3A199",
       },
       { text: "Soft sites with no recent development", color: "#D5D5D4" },
@@ -100,7 +100,7 @@ const legendOptions = {
         text: "Sites that do meet user-adjusted thresholds for CEQR review",
         color: "#A3A199",
       },
-      { text: ""},
+      // { text: ""},
       { text: "Soft sites with no recent development", color: "#D5D5D4" },
     ],
   },

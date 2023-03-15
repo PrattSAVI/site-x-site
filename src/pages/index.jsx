@@ -47,7 +47,7 @@ const Home = () => {
           </Text>
           <NextLink to="/part1/mapIntro" >
           <NavPill round={false} fontColor="#908E8E" padding="0px 25px" className="bottomnav homenav mapnav" justifyContent="left" >
-          INTERACTIVE MAP + CASE STUDIES + FINDINGS
+          INTERACTIVE MAP + CASE STUDIES
             </NavPill>
           </NextLink>
           <NextLink to="/part2" >
@@ -75,17 +75,14 @@ const Home = () => {
             limitations of City Environmental Quality Review 
             (<Link to= "/methods/glossary" className="glossary-link" target="_blank" rel="noopener noreferrer" title="go to glossary">CEQR</Link>) 
             in effectively capturing the potential extent of development 
-            and environmental effects land use decisions such as rezonings have on city neighborhoods. CEQR requires the City 
+            and environmental effects land use decisions such as rezonings have on city neighborhoods. CEQR is a disclosure process that requires the City 
             to assess the impacts of discretionary actions so that decision-makers can weigh the costs and benefits before 
             funding or approving.    
           </Text>
           <Text as="p" variant="devParagraph" className="dev-par par-solo">
-          Specifically, SITE x SITE looks back on the historic 
-          (<Link to= "/methods/glossary" className="glossary-link" target="_blank" rel="noopener noreferrer" title="go to glossary">development</Link>) 
-           of 
-          (<Link to= "/methods/glossary" className="glossary-link" target="_blank" rel="noopener noreferrer" title="go to glossary">“soft sites”</Link>)
-          , sites defined under CEQR that are 
-          likely to be developed in the future, but where a specific development is not presently proposed or planned. Reliable 
+          Specifically, SITE x SITE looks back on 
+          the <Link to= "/methods/glossary" className="glossary-link" target="_blank" rel="noopener noreferrer" title="go to glossary">development</Link> of <Link to= "/methods/glossary" className="glossary-link" target="_blank" rel="noopener noreferrer" title="go to glossary">soft sites</Link>
+          , defined under CEQR likely to be developed in the future, but where specific development plans are not in place. Reliable 
           soft site identification is a critical step in establishing the analytical framework in CEQR evaluations, known 
           as the Reasonable Worst Case Development Scenario. 
           </Text>

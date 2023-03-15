@@ -35,7 +35,7 @@ const SectionThree = () => {
         sectionId="PART TWO"
         pillTitle={`3. PRIMER`}
         title="Stakeholder Perspectives on Neighborhood Development"
-        subTitle="+ In their own words"
+        subTitle="&#x2022; In their own words"
         bgImage="sec3"
         logoStyle={"outline"}
       />

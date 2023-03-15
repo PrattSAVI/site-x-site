@@ -45,7 +45,7 @@ function CEQRIntroSideBar() {
                 handleLegend(true, "ceqrIntro");
               }}
             >
-              Soft sites and Development
+              Soft Sites and Development
             </button>
           </h2>
           <div
@@ -251,7 +251,7 @@ function CEQRIntroSideBar() {
               </Text>
               <ImageExtended src={dekalb} width="calc(100% + 20px)" marginLeft="-20px" marginTop="10px" />
               <Text as="p" variant="sideCaption" mb="10px" ml="-10px" mt="2px" >
-              9 Dekalb Avenue, also known as The Brooklyn Tower, was not identified as a potential development site in the Downtown Brooklyn FEIS. At 1,066 feet, this 93-story residential tower designed by SHoP Architects will be the tallest in the borough. Credit: MAS
+              9 Dekalb Avenue, also known as The Brooklyn Tower, was not identified as a potential development site in the Downtown Brooklyn FEIS. Credit: MAS
               </Text>
               <div>
                 <div className="row soft">

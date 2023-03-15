@@ -96,6 +96,7 @@ const Header = ({
   subTitle2,
   subTitle3,
   subTitle4,
+  instructions,
   bgImage,
   logoStyle,
   isHomepageHeader,
@@ -119,7 +120,7 @@ const Header = ({
               m="10px"
               color="black"
             >
-              New York City Development Archive 2007-2022
+              New York City Development Archive 2012-2022
             </Text>
           </Box>
           <Flex justifyContent="center">
@@ -214,13 +215,15 @@ const Header = ({
                 {sectionId}
               </NavPill> */}
               {/* <Box width="200px" borderBottom="0px solid white" height="1px" /> */}
-              <NavPill
-                padding="0 25px"
-                fontSize={8}
-                nowrap
-                dangerouslySetInnerHTML={{ __html: pillTitle }}
-                className="header-pill"
-              />
+              <NextLink to="/part1" >
+                  <NavPill
+                  padding="0 25px"
+                  fontSize={8}
+                  nowrap
+                  dangerouslySetInnerHTML={{ __html: pillTitle }}
+                  className="header-pill mapstart"
+                />
+              </NextLink>
             </Flex>
             <Link to="/">
               <LogoPlaceHolder $logoStyle={logoStyle} />
@@ -259,10 +262,15 @@ const Header = ({
                 {subTitle4}
               </Text>
             )}
+            {instructions && (
+              <Text fontSize="26px" mt="0px" mr="25px" paddingLeft="185px" color="white" className="sub">
+                {instructions}
+              </Text>
+            )}
           </Flex>
           {/* <Box marginTop="170px" marginBottom="25px" > */}
           <NextLink to="/part1" >
-            <NavPill round={false} fontSize="26px" fontColor="#ffffff" padding="0px 25px" className="bottomnav mapstart" width="auto" >
+            <NavPill round={false} fontSize="26px" fontColor="#ffffff" padding="0px 25px" className="bottomnav mapstart starthere" width="auto" >
             START HERE
             </NavPill>
           </NextLink>

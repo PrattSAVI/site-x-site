@@ -29,8 +29,8 @@ const Glossary = () => {
         sectionId="ABOUT"
         pillTitle={"Methodology"}
         // title="Glossary of Terms"
-        subTitle="+ Glossary"
-        subTitle2="+ Acronyms"
+        subTitle="&#x2022; Glossary"
+        subTitle2="&#x2022; Acronyms"
         logoStyle={"outline"}
       />
       <Main navType="methods">

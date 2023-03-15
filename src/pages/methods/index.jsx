@@ -30,8 +30,8 @@ const Methodology = () => {
         isDev101pageHeader
         sectionId="ABOUT"
         pillTitle={"Methodology"}
-        subTitle="+ Methodology"
-        subTitle2="+ Sources"
+        subTitle="&#x2022; Methodology"
+        subTitle2="&#x2022; Sources"
         logoStyle={"outline"}
       />
       <Main navType="methods">

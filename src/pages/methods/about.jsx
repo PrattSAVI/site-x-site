@@ -18,7 +18,7 @@ const About = () => {
         sectionId="ABOUT"
         pillTitle={"Methodology"}
         // title="Collaborators"
-        subTitle="+ Collaborators"
+        subTitle="&#x2022; Collaborators"
         logoStyle={"outline"}
       />
       <Main navType="methods">

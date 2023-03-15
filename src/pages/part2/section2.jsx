@@ -43,10 +43,10 @@ const SectionTwo = () => {
         sectionId="PART TWO"
         pillTitle={`2. PRIMER`}
         title="Introduction to Development in New York City"
-        subTitle="+ What is development activity?"
-        subTitle2="+ How does development happen in New York City?"
-        subTitle3="+ What led us here?"
-        subTitle4="+ What can be built?"
+        subTitle="&#x2022; What is development activity?"
+        subTitle2="&#x2022; How does development happen in New York City?"
+        subTitle3="&#x2022; What led us here?"
+        subTitle4="&#x2022; What can be built?"
         bgImage="sec2"
         logoStyle={"outline"}
       />

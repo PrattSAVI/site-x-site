@@ -19,10 +19,10 @@ const SectionFour = () => {
         sectionId="PART TWO"
         pillTitle={`4. PRIMER`}
         title="Introduction to NYC Environmental and Land Use Review Process"
-        subTitle="+ What is environmental and land use review?"
-        subTitle2="+ What are soft sites?"
-        subTitle3="+ Who are the stakeholders?"
-        subTitle4="+ How are impacts evaluated during environmental review?"
+        subTitle="&#x2022; What is environmental and land use review?"
+        subTitle2="&#x2022; What are soft sites?"
+        subTitle3="&#x2022; Who are the stakeholders?"
+        subTitle4="&#x2022; How are impacts evaluated during environmental review?"
         bgImage="sec4"
         logoStyle={"outline"}
       />

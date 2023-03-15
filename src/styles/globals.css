@@ -994,6 +994,14 @@ g text.bar-label {
   background-color: #6BB219;
 }
 
+.starthere {
+  position: relative;
+  /* padding-right: 25px; */
+  float: right;
+  /* bottom: 25px;
+  right: 25px; */
+}
+
 .mapstart:hover {
   border-color: #FFB809;
   color: #fff;

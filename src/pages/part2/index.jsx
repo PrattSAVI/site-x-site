@@ -30,8 +30,8 @@ const SectionOne = () => {
         sectionId="PART TWO"
         pillTitle={`1. PRIMER`}
         title="Development 101 Introduction"
-        subTitle="+ Livable Neighborhoods Program"
-        subTitle2="+ Meeting in the Middle"
+        subTitle="&#x2022; Livable Neighborhoods Program"
+        subTitle2="&#x2022; Meeting in the Middle"
         bgImage="sec1"
         logoStyle={"outline"}
       />
