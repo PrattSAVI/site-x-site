@@ -27,7 +27,7 @@ function SecOneloadSizeFarSideBar() {
   const handleMapFilter = () => {
 
     map.current.setFilter('pluto_recdev_no_soft', [
-      "any",
+      "all",
       ['<', 'availFAR_perc_12', farValue],
       ['<', 'LotArea_12', lotValue]
     ]);

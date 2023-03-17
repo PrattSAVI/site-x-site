@@ -209,7 +209,7 @@ export const secOneloadSizeFar = (map) => {
           'fill-color': '#258CCC'
       },
       'filter': [
-          'any',
+          'all',
           ['<', 'availFAR_perc_12', 50],
           ['<', 'LotArea_12', 5000],
         ],
@@ -305,7 +305,7 @@ export const secOneloadSizeFar = (map) => {
   // // LOAD style and functions for Section 1 - Size & FAR section - ?
   export const secOneloadSizeFarShowCEQR = (map) => {
     map.current.setFilter("pluto_recdev_no_soft", [
-      "any",
+      "all",
       ["<", "availFAR_perc_12", 50],
       ["<", "LotArea_12", 5000],
     ]);
@@ -321,7 +321,7 @@ export const secOneloadSizeFar = (map) => {
     map.current.setLayoutProperty("ozone_mask", "visibility", "visible");
     map.current.setLayoutProperty("ozone_line", "visibility", "visible");
     map.current.setFilter("pluto_recdev_no_soft", [
-      "any",
+      "all",
       ["<", "availFAR_perc_12", 50],
       ["<", "LotArea_12", 5000],
     ]);

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f95a37f.css",
-    "main.js": "/static/js/main.8e46e7f1.js",
+    "main.css": "/static/css/main.b78efd2f.css",
+    "main.js": "/static/js/main.598e2961.js",
     "static/media/ceqr_cover_el-min.png": "/static/media/ceqr_cover_el-min.0f3d67a5ac0bfb6116f8.png",
     "static/media/ozone_photo_min.jpg": "/static/media/ozone_photo_min.f9259227a657ba98eb47.jpg",
     "static/media/newConstruction_min.jpg": "/static/media/newConstruction_min.3c44055d36931dc99439.jpg",
@@ -15,7 +15,7 @@
     "static/media/Landing_125St-min.jpg": "/static/media/Landing_125St-min.b3a70ffdb81c0cf87c82.jpg",
     "static/media/layers.png": "/static/media/layers.c357428f510b3f9f5283.png",
     "static/media/primer_opener_3.jpg": "/static/media/primer_opener_3.d36c62d9cc0b4dd21ce0.jpg",
-    "static/media/soft_site_criteria.png": "/static/media/soft_site_criteria.ee1bf0676e5ea7aa5933.png",
+    "static/media/soft_site_criteria.png": "/static/media/soft_site_criteria.bf8ef8ec7fae7a76eba8.png",
     "static/media/primer_opener_2.jpg": "/static/media/primer_opener_2.3fac337603e7e77823b3.jpg",
     "static/media/dekalb.jpg": "/static/media/dekalb.4d1462547b8e9876a004.jpg",
     "static/media/park.jpg": "/static/media/park.0ee6b66a59f63f6b2d2a.jpg",
@@ -56,11 +56,11 @@
     "static/media/greyArrow.svg": "/static/media/greyArrow.26dafe29e9b9a2bcfa3c30a5513e13d9.svg",
     "static/media/blackArrow.svg": "/static/media/blackArrow.36e8528eb5e9e44ae079de83f9f46593.svg",
     "static/media/whiteArrow.svg": "/static/media/whiteArrow.0f0539a6ec3dae07355a29ed5e7adc94.svg",
-    "main.4f95a37f.css.map": "/static/css/main.4f95a37f.css.map",
-    "main.8e46e7f1.js.map": "/static/js/main.8e46e7f1.js.map"
+    "main.b78efd2f.css.map": "/static/css/main.b78efd2f.css.map",
+    "main.598e2961.js.map": "/static/js/main.598e2961.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f95a37f.css",
-    "static/js/main.8e46e7f1.js"
+    "static/css/main.b78efd2f.css",
+    "static/js/main.598e2961.js"
   ]
 }
