@@ -1,56 +1,56 @@
-puma,boro,nabes,puma_lots_no_soft,puma_lots,percent
-03701,Bronx,"Riverdale, Fieldston & Kingsbridge",9,163,0.055
-03702,Bronx,"Wakefield, Williamsbridge & Woodlawn",27,270,0.1
-03703,Bronx,"Co-op City, Pelham Bay & Schuylerville",37,205,0.18
-03704,Bronx,"Pelham Parkway, Morris Park & Laconia",14,154,0.091
-03705,Bronx,"Belmont, Crotona Park East & East Tremont",28,495,0.057
-03706,Bronx,"Bedford Park, Fordham North & Norwood",2,176,0.011
-03707,Bronx,"Morris Heights, Fordham South & Mount Hope",10,208,0.048
-03708,Bronx,"Concourse, Highbridge & Mount Eden",7,169,0.041
-03709,Bronx,"Castle Hill, Clason Point & Parkchester",12,177,0.068
-03710,Bronx,"Hunts Point, Longwood & Melrose",25,326,0.077
-03801,Manhattan,"Washington Heights, Inwood & Marble Hill",10,76,0.132
-03802,Manhattan,"Hamilton Heights, Manhattanville & West Harlem",27,122,0.221
-03803,Manhattan,Central Harlem,134,330,0.406
-03804,Manhattan,East Harlem,60,258,0.233
-03805,Manhattan,Upper East Side,53,295,0.18
-03806,Manhattan,Upper West Side & West Side,39,126,0.31
-03807,Manhattan,"Chelsea, Clinton & Midtown Business District",105,670,0.157
-03808,Manhattan,"Murray Hill, Gramercy & Stuyvesant Town",46,205,0.224
-03809,Manhattan,Chinatown & Lower East Side,87,251,0.347
-03810,Manhattan,"Battery Park City, Greenwich Village & Soho",112,425,0.264
-03901,Staten,"Tottenville, Great Kills & Annadale",73,1215,0.06
-03902,Staten,New Springville & South Beach,190,1002,0.19
-03903,Staten,"Port Richmond, Stapleton & Mariner's Harbor",79,962,0.082
-04001,Brooklyn,Greenpoint & Williamsburg,236,1104,0.214
-04002,Brooklyn,Bushwick,108,738,0.146
-04003,Brooklyn,Bedford-Stuyvesant,185,863,0.214
-04004,Brooklyn,Brooklyn Heights & Fort Greene,133,771,0.173
-04005,Brooklyn,"Park Slope, Carroll Gardens & Red Hook",225,691,0.326
-04006,Brooklyn,Crown Heights North & Prospect Heights,122,558,0.219
-04007,Brooklyn,Brownsville & Ocean Hill,75,505,0.149
-04008,Brooklyn,East New York & Starrett City,54,393,0.137
-04009,Brooklyn,Canarsie & Flatlands,52,209,0.249
-04010,Brooklyn,"East Flatbush, Farragut & Rugby",12,196,0.061
-04011,Brooklyn,"Crown Heights South, Prospect Lefferts & Wingate",18,227,0.079
-04012,Brooklyn,Sunset Park & Windsor Terrace,94,344,0.273
-04013,Brooklyn,Bay Ridge & Dyker Heights,54,140,0.386
-04014,Brooklyn,"Borough Park, Kensington & Ocean Parkway",247,606,0.408
-04015,Brooklyn,Flatbush & Midwood,79,315,0.251
-04016,Brooklyn,"Sheepshead Bay, Gerritsen Beach & Homecrest",227,598,0.38
-04017,Brooklyn,Bensonhurst & Bath Beach,75,256,0.293
-04018,Brooklyn,Brighton Beach & Coney Island,70,451,0.155
-04101,Queens,Astoria & Long Island City,86,607,0.142
-04102,Queens,Jackson Heights & North Corona,68,278,0.245
-04103,Queens,"Flushing, Murray Hill & Whitestone",175,940,0.186
-04104,Queens,"Bayside, Douglaston & Little Neck",71,434,0.164
-04105,Queens,"Queens Village, Cambria Heights & Rosedale",40,263,0.152
-04106,Queens,"Briarwood, Fresh Meadows & Hillcrest",55,245,0.224
-04107,Queens,Elmhurst & South Corona,53,272,0.195
-04108,Queens,Forest Hills & Rego Park,13,148,0.088
-04109,Queens,Sunnyside & Woodside,69,561,0.123
-04110,Queens,"Ridgewood, Glendale & Middle Village",47,235,0.2
-04111,Queens,Richmond Hill & Woodhaven,34,168,0.202
-04112,Queens,"Jamaica, Hollis & St. Albans",48,551,0.087
-04113,Queens,Howard Beach & Ozone Park,76,293,0.259
-04114,Queens,"Far Rockaway, Breezy Point & Broad Channel",109,496,0.22
+puma,boro,nabes,puma_lots_no_soft,puma_lots,percent,all
+03701,Bronx,"Riverdale, Fieldston & Kingsbridge",84,163,0.515,1
+03702,Bronx,"Wakefield, Williamsbridge & Woodlawn",180,270,0.667,1
+03703,Bronx,"Co-op City, Pelham Bay & Schuylerville",118,205,0.576,1
+03704,Bronx,"Pelham Parkway, Morris Park & Laconia",88,154,0.571,1
+03705,Bronx,"Belmont, Crotona Park East & East Tremont",355,495,0.717,1
+03706,Bronx,"Bedford Park, Fordham North & Norwood",116,176,0.659,1
+03707,Bronx,"Morris Heights, Fordham South & Mount Hope",156,208,0.75,1
+03708,Bronx,"Concourse, Highbridge & Mount Eden",84,169,0.497,1
+03709,Bronx,"Castle Hill, Clason Point & Parkchester",97,177,0.548,1
+03710,Bronx,"Hunts Point, Longwood & Melrose",187,326,0.574,1
+03801,Manhattan,"Washington Heights, Inwood & Marble Hill",56,76,0.737,1
+03802,Manhattan,"Hamilton Heights, Manhattanville & West Harlem",88,122,0.721,1
+03803,Manhattan,Central Harlem,297,330,0.9,1
+03804,Manhattan,East Harlem,222,258,0.86,1
+03805,Manhattan,Upper East Side,267,295,0.905,1
+03806,Manhattan,Upper West Side & West Side,102,126,0.81,1
+03807,Manhattan,"Chelsea, Clinton & Midtown Business District",497,670,0.742,1
+03808,Manhattan,"Murray Hill, Gramercy & Stuyvesant Town",185,205,0.902,1
+03809,Manhattan,Chinatown & Lower East Side,204,251,0.813,1
+03810,Manhattan,"Battery Park City, Greenwich Village & Soho",341,425,0.802,1
+03901,Staten,"Tottenville, Great Kills & Annadale",550,1215,0.453,1
+03902,Staten,New Springville & South Beach,589,1002,0.588,1
+03903,Staten,"Port Richmond, Stapleton & Mariner's Harbor",595,962,0.619,1
+04001,Brooklyn,Greenpoint & Williamsburg,877,1104,0.794,1
+04002,Brooklyn,Bushwick,653,738,0.885,1
+04003,Brooklyn,Bedford-Stuyvesant,767,863,0.889,1
+04004,Brooklyn,Brooklyn Heights & Fort Greene,610,771,0.791,1
+04005,Brooklyn,"Park Slope, Carroll Gardens & Red Hook",609,691,0.881,1
+04006,Brooklyn,Crown Heights North & Prospect Heights,498,558,0.892,1
+04007,Brooklyn,Brownsville & Ocean Hill,426,505,0.844,1
+04008,Brooklyn,East New York & Starrett City,303,393,0.771,1
+04009,Brooklyn,Canarsie & Flatlands,158,209,0.756,1
+04010,Brooklyn,"East Flatbush, Farragut & Rugby",144,196,0.735,1
+04011,Brooklyn,"Crown Heights South, Prospect Lefferts & Wingate",161,227,0.709,1
+04012,Brooklyn,Sunset Park & Windsor Terrace,286,344,0.831,1
+04013,Brooklyn,Bay Ridge & Dyker Heights,116,140,0.829,1
+04014,Brooklyn,"Borough Park, Kensington & Ocean Parkway",537,606,0.886,1
+04015,Brooklyn,Flatbush & Midwood,257,315,0.816,1
+04016,Brooklyn,"Sheepshead Bay, Gerritsen Beach & Homecrest",524,598,0.876,1
+04017,Brooklyn,Bensonhurst & Bath Beach,185,256,0.723,1
+04018,Brooklyn,Brighton Beach & Coney Island,369,451,0.818,1
+04101,Queens,Astoria & Long Island City,436,607,0.718,1
+04102,Queens,Jackson Heights & North Corona,223,278,0.802,1
+04103,Queens,"Flushing, Murray Hill & Whitestone",694,940,0.738,1
+04104,Queens,"Bayside, Douglaston & Little Neck",295,434,0.68,1
+04105,Queens,"Queens Village, Cambria Heights & Rosedale",152,263,0.578,1
+04106,Queens,"Briarwood, Fresh Meadows & Hillcrest",167,245,0.682,1
+04107,Queens,Elmhurst & South Corona,216,272,0.794,1
+04108,Queens,Forest Hills & Rego Park,108,148,0.73,1
+04109,Queens,Sunnyside & Woodside,376,561,0.67,1
+04110,Queens,"Ridgewood, Glendale & Middle Village",160,235,0.681,1
+04111,Queens,Richmond Hill & Woodhaven,118,168,0.702,1
+04112,Queens,"Jamaica, Hollis & St. Albans",351,551,0.637,1
+04113,Queens,Howard Beach & Ozone Park,228,293,0.778,1
+04114,Queens,"Far Rockaway, Breezy Point & Broad Channel",328,496,0.661,1

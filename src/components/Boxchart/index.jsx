@@ -158,8 +158,7 @@ const BoxChart = ({ lot_value, far_value }) => {
       .attr("y", function (d) {
         return y(d.puma) + 11;
       })
-      .text((d) => d.filtered_lots);
-      // .text((d) => d.nabes);
+      .text((d) => d.nabes);
   }, 500);
 
   useEffect(() => {
