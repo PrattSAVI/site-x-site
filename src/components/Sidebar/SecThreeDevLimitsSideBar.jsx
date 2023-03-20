@@ -189,10 +189,7 @@ function SecThreeDevLimitsSideBar() {
               <p className="sidep">
               In SITE x SITE, areas that have been recently rezoned are considered more likely to see new development. 
               While <Link to= "/methods/glossary" className="glossary-maplink" target="_blank" rel="noopener noreferrer" title="go to glossary">zoning</Link> amendments define a certain level of scale and density and specific uses, development does 
-              not always materialize as initially envisioned in the CEQR process. In neighborhoods that are zoned to 
-              incentivize development, irregularly shaped lots are often costly to redevelop. In addition, in soft 
-              site analysis, CEQR criteria considers irregularly shaped lots as site specific conditions that make 
-              development difficult. 
+              not always materialize as initially envisioned in the CEQR process. 
               </p>
             </div>
           </div>

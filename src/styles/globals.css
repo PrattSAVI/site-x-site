@@ -362,7 +362,6 @@ div {
 .sidebar {
   position: absolute;
   width: 25%;
-  position: absolute;
   top: 0;
   right: 0;
   border-left: 1px solid #908E8E;
@@ -375,6 +374,7 @@ div {
   flex-direction: column;
   max-height: calc(100% - var(--hh));
   background-color: #fff;
+  z-index: 1003;
 }
 
 .title {
@@ -629,6 +629,7 @@ p.num {
 
 .chartToggle {
   margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 /* show puma comparison chart klabel */
@@ -1216,5 +1217,8 @@ g text.bar-label {
 .nyc-hide {
   display: none;
 }
-
-
+/* 
+.barchart_img {
+  width: calc(100% - 100px) !important;
+  margin-left: 100px;
+} */

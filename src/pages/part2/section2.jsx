@@ -308,7 +308,7 @@ const SectionTwo = () => {
           </Flex>
           <Text as="p"  variant="devParagraph" className="dev-par par-solo" >
           <Text as="span" variant="devSubHead">
-          Intensity of Use which helps us understand “How much” of a building
+          Intensity of Use helps us understand the “how much” of a building
           </Text> 
           In New York City, there are three main zoning districts (Commercial-C, Residential-R and Manufacturing-M), 
           which outline components that will give shape to the building like the amount of floor area that is allowed, 
@@ -323,7 +323,7 @@ const SectionTwo = () => {
           </Flex>
           <Text as="p"  variant="devParagraph" className="dev-par par-solo" >
           <Text as="span" variant="devSubHead">
-            Flexibility of Use which helps us understand “What kind of
+            Flexibility of Use helps us understand “what kind of
             activities” take place in a building
           </Text>
             The Zoning Resolution doesn’t just regulate the size of a building.

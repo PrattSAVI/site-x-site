@@ -74,36 +74,25 @@ const Methodology = () => {
           <Text as="span" variant="devSubHead"> 
           Simulating CEQR
           </Text>
-          The CEQR Technical Manual guidelines recommend screening lots according to size and 
+          The <i>CEQR Technical Manual</i> guidelines recommend screening lots according to size and 
           bulk as indicated by lot area and floor area ratio (FAR). If a lot’s area is greater 
-          than 5,000 square feet and it has a substantial amount of available unbuilt FAR, the Technical 
-          Manual’s assumption is that the lot is sufficiently large and underbuilt to be considered for 
+          than 5,000 square feet and it has a substantial amount of available unbuilt FAR, the <i>Technical Manual</i>’s 
+          assumption is that the lot is sufficiently large and underbuilt to be considered for 
           future development. Projects can diverge from this criteria on a site-specific basis. For 
           the purposes of identifying soft sites against a baseline, this study adopts a lot area 
           threshold of at least 5,000 square feet (inclusive) and assumes a threshold of at least 
           50% available FAR. The thresholds were selected to produce conservative estimates and 
           are also consistent with the soft site methodologies of several rezonings that feature 
-          in SITE x SITE’s case studies. Recently developed lots that do not pass the initial 
-          soft site screening are analyzed in the context of broader neighborhood geographies, 
-          including boroughs, PUMAs, and select City-led rezonings.
+          in SITE x SITE’s case studies. 
           </Text>
       
           <Text as="p"  variant="devParagraph" className="dev-par par-solo">
-          In further narrowing down the pool of soft sites, the CEQR Technical Manual’s methodology accounts 
+          In further narrowing down the pool of soft sites, the <i>CEQR Technical Manual</i>’s methodology accounts 
           for lots that are generally unlikely to be redeveloped because they contain buildings or uses that 
           are difficult to relocate or demolish: certain utility uses, institutional uses, and buildings that 
           contain rent stabilized units. In SITE x SITE’s operationalization of this step, the selection of 
-          data points was further refined to include full-block and new institutional and open space uses as 
+          data points was further refined to include full-block institutional and open space uses as 
           well as landmarked sites.
-          </Text>
-          <Text as="p"  variant="devParagraph" className="dev-par par-solo">
-          The Technical Manual makes the assumption that residential buildings constructed 
-          before 1974 that contain six or more units are likely to be rent stabilized. 
-          Although rent stabilized units can be deregulated, there are specific conditions 
-          for doing so; the CEQR proxy therefore concludes that rent stabilized units are 
-          difficult to legally demolish. In comparing the results under this proxy to actual 
-          rent stabilized units as reported in tax rolls, we found that the CEQR Technical 
-          Manual proxy captured 93 percent of all rent stabilized units in New York City. 
           </Text>
           <Flex flexDirection="column" className="flex-par">
             <ImageExtended src={ criteria }/>
@@ -155,7 +144,7 @@ const Methodology = () => {
           <ul>
               <li>were larger than or equal to 5,000 sf,</li>
               <li>had 50% or more Allowable Floor Area Ratio (FAR) which was calculated by finding the greater of total allowable FAR For each site (commercial or residential) and subtracting the Built FAR,</li>
-              <li>Did not contain rent stabilized units according to the CEQR proxy,</li>
+              <li>did not contain rent stabilized units according to the CEQR proxy,</li>
               <li>were not landmarked, </li>
               <li>did not have the following land uses: Transportation & Utility (7), Public Facilities & Institutions (8), Open Space & Outdoor Recreation (9),</li>
               <li>did not have uses that were considered difficult to relocate according to CEQR documents: 
@@ -164,9 +153,9 @@ const Methodology = () => {
           </Text>
           <Text as="p"  variant="devParagraph" className="dev-par par-solo">
           Rent stabilization is identified with the proxy used by CEQR: sites with buildings containing 6 or more units and 
-          built before 1974. Rent Stabilization is also identified through analysis for the 2007-2017 historical study. 
+          built before 1974. Rent stabilization is also identified through analysis for the 2007-2017 historical study. 
           These values are scraped from tax documents and some missing values were extrapolated between known values 
-          through years per each lot, All missing years: 
+          through years per each lot, All missing years are from the
           <a href="https://www1.nyc.gov/site/finance/taxes/property-tax-bills.page"  target="_blank"  rel="noopener noreferrer" className="link"> NYC Property Tax Bills</a>. 
           Work by John Krauss (2007-2011) and Chris Whong (2014) has also been consulted to establish where rent 
           stabilization was present during these years. SITE x SITE compares this analysis for 2012 with the results 
@@ -179,8 +168,7 @@ const Methodology = () => {
             <Text as="span" variant="devSubHead"> 
             Social and neighborhood conditions
             </Text>
-          2007&ndash;2017 analysis utilizes population and housing data from the American Community Survey, 5 year survey at a PUMA (2020 Public Use Microdata Areas) 
-          geographic level.  The recently created <a href="https://equitableexplorer.planning.nyc.gov/map/data/district?geoid=3809"  target="_blank"  rel="noopener noreferrer" className="link"> Equitable Development Explorer and Displacement Risk Index</a> is 
+          The recently created <a href="https://equitableexplorer.planning.nyc.gov/map/data/district?geoid=3809"  target="_blank"  rel="noopener noreferrer" className="link"> Equitable Development Data Explorer and Displacement Risk Index</a> is 
           used for 2012&ndash;2022. For consistency and 
           because the historical analysis is done at a PUMA level, the EDDR data that was created at a NTA level (Neighborhood Tabulation Area scale) is 
           joined to PUMAs with a proportional weight based on population totals.
@@ -211,7 +199,7 @@ const Methodology = () => {
           Lot compactness is calculated using the 2012 lot geometry in MapPLUTO and the Polsby Popper equation. 
           </Text>
           <Text as="p"  variant="devParagraph" className="dev-par par-solo">Street labels were created with the Digital City Map DCM_StreetCenterLine dataset from the 
-            department of planning website.</Text>
+            Department of Planning website.</Text>
 
         </Flex>
         <Box marginTop="345px" marginBottom="85px">

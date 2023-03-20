@@ -71,9 +71,8 @@ const Home = () => {
           </Text>
           <Text as="p" variant="devParagraph" className="dev-par par-solo">
           {/* <Text as="span" variant="devSubHead" display="inline"> SITE x SITE (“Site by Site”)  </Text>{" "} */}
-            SITE x SITE (“Site by Site”) is an unprecedented retrospective study of citywide development that illustrates the 
-            limitations of City Environmental Quality Review 
-            (<Link to= "/methods/glossary" className="glossary-link" target="_blank" rel="noopener noreferrer" title="go to glossary">CEQR</Link>) 
+            SITE x SITE (“Site by Site”) is an unprecedented retrospective study of citywide development that illustrates the limitations of the City Environmental Quality Review 
+            (<Link to= "/methods/glossary" className="glossary-link" target="_blank" rel="noopener noreferrer" title="go to glossary">CEQR</Link>) process 
             in effectively capturing the potential extent of development 
             and environmental effects land use decisions such as rezonings have on city neighborhoods. CEQR is a disclosure process that requires the City 
             to assess the impacts of discretionary actions so that decision-makers can weigh the costs and benefits before 
@@ -82,7 +81,7 @@ const Home = () => {
           <Text as="p" variant="devParagraph" className="dev-par par-solo">
           Specifically, SITE x SITE looks back on 
           the <Link to= "/methods/glossary" className="glossary-link" target="_blank" rel="noopener noreferrer" title="go to glossary">development</Link> of <Link to= "/methods/glossary" className="glossary-link" target="_blank" rel="noopener noreferrer" title="go to glossary">soft sites</Link>
-          , defined under CEQR likely to be developed in the future, but where specific development plans are not in place. Reliable 
+          , defined under CEQR as likely to be developed in the future &ndash; but where specific development plans are not in place. Reliable 
           soft site identification is a critical step in establishing the analytical framework in CEQR evaluations, known 
           as the Reasonable Worst Case Development Scenario. 
           </Text>

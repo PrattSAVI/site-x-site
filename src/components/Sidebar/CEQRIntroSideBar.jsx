@@ -87,7 +87,8 @@ function CEQRIntroSideBar() {
               may be raised about how responsive certain land use decisions are to the reality on the ground.
               </Text>
               <p className="lastp">
-              * SITE x SITE uses ≥5,000 sf and ≥50% Available <Link to= "/methods/glossary" className="glossary-maplink" target="_blank" rel="noopener noreferrer" title="go to glossary">FAR</Link>. An overview of soft sites can be found in Primer on Development in New York City.
+              * SITE x SITE uses ≥5,000 sf and ≥50% Available <Link to= "/methods/glossary" className="glossary-maplink" target="_blank" rel="noopener noreferrer" title="go to glossary">FAR</Link>. An 
+              overview of soft sites can be found in <Link to= "/part2" className="maplink" target="_blank" rel="noopener noreferrer" >Primer on Development in New York City</Link>.
               </p>
               <p className="lastp">See Step 2b: Rezonings to reference neighborhood rezonings from 2012-2022.</p>
             </div>

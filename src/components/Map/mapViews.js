@@ -88,7 +88,7 @@ export const ceqrIntroshowLimits = (map) => {
   map.current.setLayoutProperty("not_softsites_dev", "visibility", "none");
   map.current.setLayoutProperty("puma_selector", "visibility", "visible");
   map.current.setLayoutProperty("limits", "visibility", "visible");
-  map.current.setLayoutProperty("softsites_lim", "visibility", "visible");
+  map.current.setLayoutProperty("softsites_lim", "visibility", "none");
   map.current.setLayoutProperty("case_125_line", "visibility", "none");
   map.current.setLayoutProperty("case_125", "visibility", "none");
   map.current.setLayoutProperty("soft_07", "visibility", "none");

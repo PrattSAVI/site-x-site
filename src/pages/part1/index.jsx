@@ -8,7 +8,7 @@ import {
   secTwoSocialNeigh,
   secThreeDevLimits,
 } from "../../components/Map/mapViews";
-import Boxchart from "../../components/Boxchart";
+import Boxchart from "../../components/Boxchart/index";
 import Dotchart from "../../components/Dotchart";
 import Legend from "../../components/Legend";
 

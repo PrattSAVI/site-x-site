@@ -68,7 +68,7 @@ function SecOneloadSizeFarSideBar() {
               The <i>Technical Manual’s</i> criteria screens lots according to size and density (bulk). 
               If a lot has an area larger than 5,000 square feet and a substantial amount of 
               available unbuilt floor area, then it is sufficiently large and underbuilt 
-              to be considered for future development. Site by Site uses the thresholds ≥5,000 square 
+              to be considered for future development. SITE x SITE uses the thresholds ≥5,000 square 
               feet and ≥50% available <Link to= "/methods/glossary" className="glossary-maplink" target="_blank" rel="noopener noreferrer" title="go to glossary">FAR</Link>. A low % FAR indicates a building that is close to reaching 
               the maximum allowable density on the lot.
               </p>
@@ -76,6 +76,33 @@ function SecOneloadSizeFarSideBar() {
               <ImageExtended src={lot_hist} mb="5px" />
               <Text as="p" variant="sideBold" mt="20px" mb="5px" >Available Floor Area Ratio</Text>
               <ImageExtended src={far_hist} mb="5px" />
+              <div className='chartToggle' >
+                <div className="form-check">
+                  <input
+                    className="form-check-input bar-chart"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                    onClick={() => displayBoxChart()}
+                  ></input>
+                  <label className="form-check-label chart-label sidep" htmlFor="flexRadioDefault1">
+                  Show PUMA comparison chart
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input bar-chart"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    // checked
+                    onClick={() => hideBoxChart()}
+                  ></input>
+                  <label className="form-check-label sidep" htmlFor="flexRadioDefault2">
+                    Show map
+                  </label>
+                </div>
+              </div>
               <p className="lastp">See Step 2b: Rezonings to reference neighborhood rezonings from 2012-2022.</p>
             </div>
           </div>
@@ -163,33 +190,7 @@ function SecOneloadSizeFarSideBar() {
               <Text as="p" variant="sideBold" mt="20px" mb="5px" >Available Floor Area Ratio</Text>
               <ImageExtended src={far_hist} mb="5px" /> */}
 
-              <div className='chartToggle'>
-                <div className="form-check">
-                  <input
-                    className="form-check-input bar-chart"
-                    type="radio"
-                    name="flexRadioDefault"
-                    id="flexRadioDefault1"
-                    onClick={() => displayBoxChart()}
-                  ></input>
-                  <label className="form-check-label chart-label sidep" htmlFor="flexRadioDefault1">
-                  Show PUMA comparison chart
-                  </label>
-                </div>
-                <div className="form-check">
-                  <input
-                    className="form-check-input bar-chart"
-                    type="radio"
-                    name="flexRadioDefault"
-                    id="flexRadioDefault2"
-                    // checked
-                    onClick={() => hideBoxChart()}
-                  ></input>
-                  <label className="form-check-label sidep" htmlFor="flexRadioDefault2">
-                    Show map
-                  </label>
-                </div>
-              </div>
+    
             </div>
           </div>
         </div>

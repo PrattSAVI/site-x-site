@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b78efd2f.css",
-    "main.js": "/static/js/main.598e2961.js",
+    "main.css": "/static/css/main.f9819ab2.css",
+    "main.js": "/static/js/main.bcdacb79.js",
     "static/media/ceqr_cover_el-min.png": "/static/media/ceqr_cover_el-min.0f3d67a5ac0bfb6116f8.png",
     "static/media/ozone_photo_min.jpg": "/static/media/ozone_photo_min.f9259227a657ba98eb47.jpg",
     "static/media/newConstruction_min.jpg": "/static/media/newConstruction_min.3c44055d36931dc99439.jpg",
@@ -10,13 +10,14 @@
     "static/media/timeline2.svg": "/static/media/timeline2.04be0b1c17d92db7d5f0d85646e2ce56.svg",
     "static/media/bushwick_map.jpeg": "/static/media/bushwick_map.4cf08c150103820a5181.jpeg",
     "static/media/before_after_923.jpg": "/static/media/before_after_923.a5f871f64b4aca13b42f.jpg",
+    "static/media/size_far_barchart.svg": "/static/media/size_far_barchart.01302ed82e748ee57534b1a4c93ba977.svg",
     "static/media/liberty.jpg": "/static/media/liberty.6c3e52ac14dce64b2723.jpg",
     "static/media/atlantic.jpg": "/static/media/atlantic.4dddf49849e9addf0540.jpg",
     "static/media/Landing_125St-min.jpg": "/static/media/Landing_125St-min.b3a70ffdb81c0cf87c82.jpg",
     "static/media/layers.png": "/static/media/layers.c357428f510b3f9f5283.png",
     "static/media/primer_opener_3.jpg": "/static/media/primer_opener_3.d36c62d9cc0b4dd21ce0.jpg",
-    "static/media/soft_site_criteria.png": "/static/media/soft_site_criteria.bf8ef8ec7fae7a76eba8.png",
     "static/media/primer_opener_2.jpg": "/static/media/primer_opener_2.3fac337603e7e77823b3.jpg",
+    "static/media/soft_site_criteria.png": "/static/media/soft_site_criteria.fb59a766d106c4d2ccfc.png",
     "static/media/dekalb.jpg": "/static/media/dekalb.4d1462547b8e9876a004.jpg",
     "static/media/park.jpg": "/static/media/park.0ee6b66a59f63f6b2d2a.jpg",
     "static/media/dcp_cover-min.png": "/static/media/dcp_cover-min.0342a118987a23db6d58.png",
@@ -56,11 +57,11 @@
     "static/media/greyArrow.svg": "/static/media/greyArrow.26dafe29e9b9a2bcfa3c30a5513e13d9.svg",
     "static/media/blackArrow.svg": "/static/media/blackArrow.36e8528eb5e9e44ae079de83f9f46593.svg",
     "static/media/whiteArrow.svg": "/static/media/whiteArrow.0f0539a6ec3dae07355a29ed5e7adc94.svg",
-    "main.b78efd2f.css.map": "/static/css/main.b78efd2f.css.map",
-    "main.598e2961.js.map": "/static/js/main.598e2961.js.map"
+    "main.f9819ab2.css.map": "/static/css/main.f9819ab2.css.map",
+    "main.bcdacb79.js.map": "/static/js/main.bcdacb79.js.map"
   },
   "entrypoints": [
-    "static/css/main.b78efd2f.css",
-    "static/js/main.598e2961.js"
+    "static/css/main.f9819ab2.css",
+    "static/js/main.bcdacb79.js"
   ]
 }
