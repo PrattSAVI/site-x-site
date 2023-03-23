@@ -89,7 +89,10 @@ const Home = () => {
           The goal of SITE x SITE is to provide more reliable information about past development so that estimates of future 
           development and potential impacts are rooted in actual trends. Ultimately, SITE x SITE seeks to improve CEQR so 
           that city planners and decision makers can better serve communities and communities themselves can be better 
-          informed in the City’s public land use and environmental review processes.
+          informed in the City’s public land use and environmental review processes. The SITE x SITE initiative  
+          also <a href="https://www.mas.org/wp-content/uploads/2023/03/soft-site-dev-report-2023.pdf" target="_blank"  rel="noopener noreferrer" className="link"> includes a report</a> with 
+          detailed methodology, key findings and recommendations, and case studies. 
+          A <a href="https://www.mas.org/wp-content/uploads/2023/03/soft-site-dev-brief-2023.pdf" target="_blank"  rel="noopener noreferrer" className="link"> two-page project brief</a> summarizing the report is available.
           </Text>
           <Text
             as="h2"

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f9819ab2.css",
-    "main.js": "/static/js/main.bcdacb79.js",
+    "main.js": "/static/js/main.013d8dce.js",
     "static/media/ceqr_cover_el-min.png": "/static/media/ceqr_cover_el-min.0f3d67a5ac0bfb6116f8.png",
     "static/media/ozone_photo_min.jpg": "/static/media/ozone_photo_min.f9259227a657ba98eb47.jpg",
     "static/media/newConstruction_min.jpg": "/static/media/newConstruction_min.3c44055d36931dc99439.jpg",
@@ -58,10 +58,10 @@
     "static/media/blackArrow.svg": "/static/media/blackArrow.36e8528eb5e9e44ae079de83f9f46593.svg",
     "static/media/whiteArrow.svg": "/static/media/whiteArrow.0f0539a6ec3dae07355a29ed5e7adc94.svg",
     "main.f9819ab2.css.map": "/static/css/main.f9819ab2.css.map",
-    "main.bcdacb79.js.map": "/static/js/main.bcdacb79.js.map"
+    "main.013d8dce.js.map": "/static/js/main.013d8dce.js.map"
   },
   "entrypoints": [
     "static/css/main.f9819ab2.css",
-    "static/js/main.bcdacb79.js"
+    "static/js/main.013d8dce.js"
   ]
 }

@@ -178,19 +178,18 @@ const Methodology = () => {
             <Text as="span" variant="devSubHead"> 
             Assessed Value Increase
             </Text>
-          The percent that a site value increases when built upon is estimated by subtracting the Assessed Land Value from the Assessed Total value and 
-          dividing that by the Assessed Total. These attributes are available for every tax lot in the MapPLUTO datasets. 
+          The percent that a site value increases when built upon is estimated by subtracting the Assessed Land Value from the Assessed Total value and dividing that by the Assessed Total. These attributes are available for every tax lot in the MapPLUTO datasets. 
           </Text>
           <Text as="p"  variant="devParagraph" className="dev-par par-solo">
-          {/* Merged, Assembled and lots that disappeared are identified by comparing the Borough Block Lot numbers (BBLs) and the lot areas in 2012 MapPLUTO with those in 2022. 
-          <br /> <br />  */}
+          <Text as="span" variant="devSubHead"> 
+          Additional datasets
+            </Text>
           Limitations to development are visualized using datasets available from the New York City Planning Department website:
           </Text>
           <Text as="div"  variant="devParagraph" className="dev-par par-solo">
           <ul>
-              <li>Rezonings adopted in the last 10 years as of June 6, 2022 (dataset name: NYC Zoning Map Amendments)
-</li>
-              <li>WRP Coastal Boundary Zones, 2016</li>
+              <li>Rezonings adopted in the last 10 years as of June 6, 2022 (dataset name: NYC Zoning Map Amendments)</li>
+              <li>WRP Coastal Boundary Zone, 2016</li>
               <li>Special Maritime and Industrial Districts, 2016</li>
               <li>Historic Districts, March 2022</li>
           </ul>

@@ -119,6 +119,7 @@ function SecOneloadSizeFarSideBar() {
               aria-expanded="false"
               aria-controls="collapseTwo"
               onClick={() => {
+                hideBoxChart();
                 secOneloadSizeFarShowCEQR(map);
                 handleMapFilter();
                 handleLegend(true, "secOneloadSizeFar2");
@@ -177,20 +178,7 @@ function SecOneloadSizeFarSideBar() {
                 ></input>
                 <p className="minp">0%</p>
                 <p className="maxp">100%</p>
-                {/* <output className="bubble"></output> */}
               </div>
-              {/* <p className="sidep">
-                Our analysis finds that the size and bulk of recently developed
-                lots (newly constructed or subject to a <Link to= "/methods/glossary" className="glossary-maplink" target="_blank" rel="noopener noreferrer" title="go to glossary">merger</Link>) varies widely
-                across the five boroughs, which can be explored in the map using
-                the sliders above. 
-              </p> */}
-              {/* <Text as="p" variant="sideBold" mb="5px" >Lot Size</Text>
-              <ImageExtended src={lot_hist} mb="5px" />
-              <Text as="p" variant="sideBold" mt="20px" mb="5px" >Available Floor Area Ratio</Text>
-              <ImageExtended src={far_hist} mb="5px" /> */}
-
-    
             </div>
           </div>
         </div>
